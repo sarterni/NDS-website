@@ -1,68 +1,65 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #f1f1f1;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Center website */
-.main {
-    max-width: 1000px;
-    margin: auto;
-}
-
-#main-title {
-    font-size: 50px;
-    word-break: break-all;
-    text-align: center;
-}
-
-.row {
-    margin: 10px -16px;
-}
-
-/* Add padding BETWEEN each column */
-.row,
-.row>.column {
-    padding: 8px;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 33.33%;
-    display: none;
-    /* Hide all elements by default */
-}
-
-/* Clear floats after rows */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Content */
-.content {
-    background-color: white;
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-}
-
-/* The "show" class is added to the filtered elements */
-.show {
+html {
     display: block;
 }
 
-/* Style the buttons */
-.filtercards-btn {
-    background-color: white; 
+body {
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar-image {
+    width: 5%;
+    height: 5%;
+    margin-right: 10%;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.nav-menu {
+    list-style-type: none;
+
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    display: flex;
+    margin: 0;
+
+}
+
+
+.nav-menu li {
+    flex: 1;
+    text-align: center;
+}
+
+div#btn-container button {
+    background-color: gray;
     border: none;
-    color: black;
+    color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -72,18 +69,94 @@ body {
     cursor: pointer;
 }
 
-.filtercards-btn:hover {
-    background-color: green;
-    color: white;
+.filtercards-btn button:active {
+    background-color: black;
 }
 
-.filtercards-btn.active {
-    background-color: #666;
-    color: white;
+button.filtercards-btn:hover {
+    background-color: green;
 }
+
+div.main-cotainer {
+    margin-top: 100px;
+    max-width: 1000px;
+}
+
+div.main-title {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+div#btn-container {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: -70px;
+}
+
+
+
+#main-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+div.card {
+    margin: auto;
+    width: 70%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+.row {
+    margin: 10px -16px;
+}
+
+
+.row,
+.row>.column {
+    padding: 8px;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    display: none;
+
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.content {
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+
+.show {
+    display: block;
+}
+
+
+
 
 button.link-project {
-    background-color: cornflowerblue; 
+    background-color: cornflowerblue;
     border: none;
     color: white;
     text-align: center;
