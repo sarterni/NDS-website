@@ -55,15 +55,19 @@ li a:hover:not(.active) {
 
 
 
-.donate {
-    background-color: orangered;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin-right: 3%;
-    cursor: pointer;
-    border-radius: 5px;
+button#donate {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: #ccc;
+}
+
+img#igraal-logo {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+span#span-igraal {
+    margin-left: 10px;
 }
