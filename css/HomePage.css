@@ -55,12 +55,24 @@ li a:hover:not(.active) {
 
 
 
-button#donate {
-    display: block;
-    width: 200px;
-    height: 50px;
-    background-color: #ccc;
+div.btn-grid button {
+    background-color: orangered;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 10px 24px;
+    cursor: pointer;
 }
+
+button:hover {
+    background-color: black;
+}
+
+
 
 img#igraal-logo {
     float: left;
@@ -69,5 +81,29 @@ img#igraal-logo {
 }
 
 span#span-igraal {
+    float: left;
     margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
 }
+
+
+.home-page div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+
+}
+
+.home-page img {
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
