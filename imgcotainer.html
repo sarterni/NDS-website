@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/imgcotainer.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+</head>
+
+<body>
+
+    <body>
+        <ul class="nav-menu">
+            <img src="img/logoNDS.png" alt="" class="navbar-image">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="NewsPage.html">News</a></li>
+            <li><a href="Library.html">Library</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <div class="Restricted">
+
+                <input id="input-restricted" type="text" placeholder="Mot de passe"><br>
+                <a href="RestrictedAccess.html" style="text-decoration:none">
+                    <button id="go-to-restrcted" disabled>Connectez vous</button>
+                </a>
+            </div>
+        </ul>
+
+
+        <section id="welcome-section">
+            <h1>Salut c'est Nicolas</h1>
+            <p><i>Étudions en informatique et fondateur de </i></p>
+            <p><i>Je te présente mon web portrait interactif</i></p>
+
+        </section>
+
+        <div class="container">
+            <span class="close-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </span>
+
+            <div class="media-icons">
+                <a href="#" style="background: #e60023">
+                    <i class="fa-brands fa-pinterest"></i>
+                    <span class="tooltip" style="color: #e60023">Pinterest</span>
+                </a>
+                <a href="#" style="background: #0e76a8">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span class="tooltip" style="color: #0e76a8">Linkedin</span>
+                </a>
+                <a href="#" style="background: #ff0000">
+                    <i class="fa-brands fa-youtube"></i>
+                    <span class="tooltip" style="color: #ff0000">YouTube</span>
+                </a>
+                <a href="#" style="background: #ea4689">
+                    <i class="fa-brands fa-dribbble"></i>
+                    <span class="tooltip" style="color: #ea4689">Dribbble</span>
+                </a>
+                <a href="#" style="background: #8e36ff">
+                    <i class="fa-brands fa-github"></i>
+                    <span class="tooltip" style="color: #8e36ff">Github</span>
+                </a>
+                <a href="#" style="background: #4267b2">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <span class="tooltip" style="color: #4267b2">Facebook</span>
+                </a>
+                <a href="#" style="background: #1da1f2">
+                    <i class="fa-brands fa-twitter"></i>
+                    <span class="tooltip" style="color: #1da1f2">Twitter</span>
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="box" id="box1">
+            <div class="imgbox">
+                <img src="./img/Feuillelogo.png" alt="">
+            </div>
+            <div class="content">
+                <h2>Bienvenue sur notre site</h2>
+                <p>Aliqua nostrud consectetur nisi sit nisi cupidatat commodo nulla officia do tempor. Ea proident
+                    incididunt eu veniam ullamco dolore mollit ipsum laboris. Ex consequat fugiat cillum est qui ad amet
+                    mollit et cupidatat non. Adipisicing eiusmod id aute pariatur tempor pariatur velit dolor Lorem
+                    minim.
+                    Et incididunt ut sunt mollit commodo ad veniam ea tempor aliqua laboris dolore reprehenderit. Culpa
+                    voluptate sit reprehenderit quis esse consequat exercitation ut consectetur ullamco.</p>
+            </div>
+        </div>
+
+        <div class="box" id="box2">
+            <div class="imgbox">
+                <img src="./img/Feuillelogo.png" alt="">
+            </div>
+            <div class="content">
+                <h2>Bienvenue sur notre site</h2>
+                <p>Aliqua nostrud consectetur nisi sit nisi cupidatat commodo nulla officia do tempor. Ea proident
+                    incididunt eu veniam ullamco dolore mollit ipsum laboris. Ex consequat fugiat cillum est qui ad amet
+                    mollit et cupidatat non. Adipisicing eiusmod id aute pariatur tempor pariatur velit dolor Lorem
+                    minim.
+                    Et incididunt ut sunt mollit commodo ad veniam ea tempor aliqua laboris dolore reprehenderit. Culpa
+                    voluptate sit reprehenderit quis esse consequat exercitation ut consectetur ullamco.</p>
+            </div>
+
+
+
+
+        </div>
+
+        <Script>
+            const closeBtn = document.querySelector(".close-btn");
+
+            closeBtn.addEventListener("click", () => {
+                closeBtn.classList.toggle("open");
+            });
+        </Script>
+    </body>
+
+</html>
