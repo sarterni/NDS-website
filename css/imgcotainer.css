@@ -7,6 +7,24 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.nav-menu {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    margin-bottom: 5%;
+    padding-left: 3%;
+}
+
 
 .navbar-image {
     width: 5%;
@@ -35,23 +53,6 @@ li a:hover:not(.active) {
     background-color: #04AA6D;
 }
 
-.nav-menu {
-    list-style-type: none;
-
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    margin: 0;
-    margin-bottom: 5%;
-    padding-left: 3%;
-}
 
 
 /* SC */
@@ -163,6 +164,31 @@ a .tooltip::before {
     background: linear-gradient(90deg, #0036a2 0%, #b29f35 100%);
 }
 
+#welcome-section h1 {
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+#welcome-section p {
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+#welcome-section a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s linear;
+}
+
 
 
 .box {
@@ -170,6 +196,7 @@ a .tooltip::before {
     top: 50%;
     left: 50%;
     width: 600px;
+    margin-top: 10%;
     padding: 20px;
     box-sizing: border-box;
     background: #fff;
@@ -178,15 +205,19 @@ a .tooltip::before {
     display: flex;
 }
 
- #box1 {
+
+#box1 {
     transform: translate(-50%, -50%);
 
 }
 
- #box2 {
-    transform: translate(-60%, -50%);
+#box2 {
+    transform: translate(-50%, -60%);
 }
- /* r: mettre #box1 en haut à gauche et #box2 en haut à droite */
+
+#box3 {
+    transform: translate(-50%, -60%);
+}
 
 
 
@@ -196,25 +227,58 @@ a .tooltip::before {
     align-items: center;
 }
 
-.box  .imgbox img {
+.box .imgbox img {
     max-width: 100%;
     width: 1000px;
 }
 
-.box  .content {
+.box .content {
     padding-left: 20px;
 }
 
-.box  .content h2 {
+.box .content h2 {
     margin: 0;
     padding-left: 0;
     color: #6d7c95;
     text-align: center;
 }
 
-.box  .content p {
+.box .content p {
     margin: 0;
     padding: 10px 0 0;
     text-align: justify;
 
+}
+
+div.btn-grid button {
+    background-color: orangered;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 10px 24px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
+
+
+
+img#igraal-logo {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+span#span-igraal {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
 }
