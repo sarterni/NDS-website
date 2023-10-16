@@ -188,33 +188,28 @@ a .tooltip::before {
 }
 
 
-.box #box1 .imgbox,
-.box #box2 .imgbox {
+.box .imgbox {
     display: flex;
     align-items: center;
 }
 
-.box #box1 .imgbox img,
-.box #box2 .imgbox img {
+.box  .imgbox img {
     max-width: 100%;
     width: 1000px;
 }
 
-.box #box1 .content,
-.box #box2 .content {
+.box  .content {
     padding-left: 20px;
 }
 
-.box #box1 .content h2,
-.box #box2 .content h2 {
+.box  .content h2 {
     margin: 0;
     padding-left: 0;
     color: #6d7c95;
     text-align: center;
 }
 
-.box #box1 .content p,
-.box #box2 .content p {
+.box  .content p {
     margin: 0;
     padding: 10px 0 0;
     text-align: justify;
