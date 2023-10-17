@@ -255,11 +255,13 @@ a .tooltip::before {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 5px;
 }
 
-div.btn-grid button {
+button.projets-btn {
     background-color: orangered;
+    width: 200px;
+    height: 50px;
     border: none;
     color: white;
     text-align: center;
@@ -270,6 +272,8 @@ div.btn-grid button {
     padding: 10px 24px;
     cursor: pointer;
 }
+
+
 
 button:hover {
     background-color: black;
