@@ -275,7 +275,6 @@ button.projets-btn {
 
 button#donate {
     background-color: red;
-
     border: none;
     color: white;
     text-align: center;
@@ -290,7 +289,11 @@ button#donate {
 
 
 
-button:hover {
+button.projets-btn:hover {
+    background-color: black;
+}
+
+button#donate:hover {
     background-color: black;
 }
 
@@ -308,4 +311,24 @@ span#span-igraal {
     margin-top: 10px;
     font-size: 20px;
     color: white;
+}
+
+div#follow-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+div#follow-me p {
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+div#follow-me img {
+    width: 10%;
+    height: 10%;
+
 }

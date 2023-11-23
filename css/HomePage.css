@@ -113,10 +113,11 @@ span#span-igraal {
 
 }
 
-.home-page img {
+img.logo{
     width: 25%;
     height: 25%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10%;
 }
