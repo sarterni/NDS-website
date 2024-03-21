@@ -63,7 +63,7 @@ div.btn-grid {
 }
 
 div.btn-grid button {
-    background-color: orangered;
+    background-color: #04AA6D;
     width: 200px;
     height: 200px;
     border: none;
@@ -83,22 +83,23 @@ div.btn-grid button {
 
 
 
-button:hover {
-    background-color: black;
-}
 
 
 
-img#igraal-logo {
-    float: left;
-    width: 50px;
-    height: 50px;
-}
-
-span#span-igraal {
-    float: left;
+img#ebuyclub-logo {
+    width: 80%;
+    height: 80%;
     margin-left: 10px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    float: left;
+}
+
+span#span-ebuyclub {
+    float: left;
+    position: relative;
+    top: -20px;
+    margin-left: 10px;
+    /* margin-top: 1px; */
     font-size: 20px;
     color: white;
 }
@@ -160,4 +161,8 @@ div.home-page section.sec-faq#no3 {
 div.home-page section.sec-faq#no4 {
     background-color: #a0a028;
     color: white;
+}
+
+div.btn-grid button:hover {
+    background-color: black;
 }
