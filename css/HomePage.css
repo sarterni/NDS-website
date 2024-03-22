@@ -62,13 +62,13 @@ li a:hover:not(.active) {
     padding: 20px;
 }
 
-.home-page section.sec-faq h1 {
+/* .home-page section.sec-faq h1 {
 
     text-decoration: underline;
     text-decoration-thickness: 5px;
     text-underline-offset: 8px;
 
-}
+} */
 
 div.home-page section p {
     font-size: 20px;
