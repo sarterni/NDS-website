@@ -70,7 +70,7 @@ li a:hover:not(.active) {
 
 } */
 
-div.home-page section p {
+section p {
     font-size: 20px;
     text-align: center;
 }
