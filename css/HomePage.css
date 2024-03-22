@@ -53,7 +53,7 @@ li a:hover:not(.active) {
     padding-left: 3%;
 }
 
-.home-page section.sec-faq {
+.sec-faq {
     display: flex;
     justify-content: center;
     align-items: center;
