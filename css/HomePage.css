@@ -151,13 +151,13 @@ div.btn-grid button {
     margin-top: 10%;
 }
 
-h1.main-title {
+.main-title {
     font-size: 40px;
     color: black;
     text-align: center;
 }
 
-p.secondary-title {
+.secondary-title {
     font-size: 20px;
     color: black;
     text-align: center;
