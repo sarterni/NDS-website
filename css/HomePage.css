@@ -143,22 +143,22 @@ div.home-page section p {
     text-align: center;
 }
 
-section.sec-faq#no1 {
+section#no1 {
     background-color: green;
     color: white;
 }
 
-section.sec-faq#no2 {
+section#no2 {
     background-color: #2828a0;
     color: white;
 }
 
-section.sec-faq#no3 {
+section#no3 {
     background-color: #a02828;
     color: white;
 }
 
-section.sec-faq#no4 {
+section#no4 {
     background-color: #a0a028;
     color: white;
 }
