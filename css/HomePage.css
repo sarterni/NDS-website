@@ -53,67 +53,6 @@ li a:hover:not(.active) {
     padding-left: 3%;
 }
 
-
-div.btn-grid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    margin-top: 10%;
-}
-
-div.btn-grid button {
-    background-color: #04AA6D;
-    width: 200px;
-    height: 200px;
-    border: none;
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    padding: 10px 24px;
-    cursor: pointer;
-}
-
-
-#ebuyclub-logo {
-    width: 80%;
-    height: 80%;
-    margin-left: 10px;
-    /* margin-top: 10px; */
-    float: left;
-}
-
-#span-ebuyclub {
-    float: left;
-    position: relative;
-    top: -20px;
-    margin-left: 10px;
-    /* margin-top: 1px; */
-    font-size: 20px;
-    color: white;
-}
-
-
-.homepage-logo img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-}
-
-
-
-
-.main-title {
-    font-size: 20px;
-    color: black;
-    text-align: center;
-}
-
 .home-page section.sec-faq {
     display: flex;
     justify-content: center;
@@ -158,4 +97,61 @@ div.home-page section p {
 
 div.btn-grid button:hover {
     background-color: black;
+}
+
+div.btn-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+div.btn-grid button {
+    background-color: #04AA6D;
+    width: 200px;
+    height: 200px;
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 10px 24px;
+    cursor: pointer;
+}
+
+
+#ebuyclub-logo {
+    width: 80%;
+    height: 80%;
+    margin-left: 10px;
+
+    float: left;
+}
+
+#span-ebuyclub {
+    float: left;
+    position: relative;
+    top: -20px;
+    margin-left: 10px;
+
+    font-size: 20px;
+    color: white;
+}
+
+
+.homepage-logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.main-title {
+    font-size: 20px;
+    color: black;
+    text-align: center;
 }
