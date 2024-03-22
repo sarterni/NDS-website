@@ -80,13 +80,7 @@ div.btn-grid button {
 }
 
 
-
-
-
-
-
-
-img#ebuyclub-logo {
+#ebuyclub-logo {
     width: 80%;
     height: 80%;
     margin-left: 10px;
@@ -94,7 +88,7 @@ img#ebuyclub-logo {
     float: left;
 }
 
-span#span-ebuyclub {
+#span-ebuyclub {
     float: left;
     position: relative;
     top: -20px;
@@ -105,7 +99,7 @@ span#span-ebuyclub {
 }
 
 
-div.homepage-logo img {
+.homepage-logo img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -115,13 +109,13 @@ div.homepage-logo img {
 
 
 
-div.main-title {
+.main-title {
     font-size: 20px;
     color: black;
     text-align: center;
 }
 
-div.home-page section.sec-faq {
+.home-page section.sec-faq {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,7 +124,7 @@ div.home-page section.sec-faq {
     padding: 20px;
 }
 
-div.home-page section.sec-faq h1 {
+.home-page section.sec-faq h1 {
 
     text-decoration: underline;
     text-decoration-thickness: 5px;
@@ -143,22 +137,22 @@ div.home-page section p {
     text-align: center;
 }
 
-section#no1 {
+#no1 {
     background-color: green;
     color: white;
 }
 
-section#no2 {
+#no2 {
     background-color: #2828a0;
     color: white;
 }
 
-section#no3 {
+#no3 {
     background-color: #a02828;
     color: white;
 }
 
-section#no4 {
+#no4 {
     background-color: #a0a028;
     color: white;
 }
