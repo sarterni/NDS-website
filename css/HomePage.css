@@ -104,7 +104,8 @@ div.btn-grid {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-top: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px
 }
 
 div.btn-grid button {
@@ -150,7 +151,13 @@ div.btn-grid button {
     margin-top: 10%;
 }
 
-.main-title {
+h1.main-title {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+p.secondary-title {
     font-size: 20px;
     color: black;
     text-align: center;
