@@ -11,7 +11,8 @@ body {
 .navbar-image {
     width: 5%;
     height: 5%;
-    margin-right: 10%;
+    margin-left: 1px;
+    margin-right: 5px;
 }
 
 
@@ -50,7 +51,7 @@ li a:hover:not(.active) {
     flex-direction: row;
     margin: 0;
     margin-bottom: 5%;
-    padding-left: 3%;
+    padding-left: 20px;
 }
 
 .sec-faq {
@@ -124,6 +125,15 @@ div.btn-grid button {
     cursor: pointer;
 }
 
+button.donate#ebuyclub {
+    background-color: #425bb3;
+}
+button.donate#tipee {
+    background-color: #de4f59;
+}
+
+
+
 
 #ebuyclub-logo {
     width: 80%;
@@ -162,3 +172,4 @@ div.btn-grid button {
     color: black;
     text-align: center;
 }
+
