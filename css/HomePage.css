@@ -96,9 +96,6 @@ section p {
     color: white;
 }
 
-div.btn-grid button:hover {
-    background-color: black;
-}
 
 div.btn-grid {
     display: flex;
@@ -125,11 +122,24 @@ div.btn-grid button {
     cursor: pointer;
 }
 
+button.btn-grid:hover {
+    background-color: black;
+}
+
 button.donate#ebuyclub {
     background-color: #425bb3;
 }
+
 button.donate#tipee {
     background-color: #de4f59;
+}
+
+button.donate#ebuyclub:hover {
+    background-color: black;
+}
+
+button.donate#tipee:hover {
+    background-color: black;
 }
 
 
@@ -172,4 +182,3 @@ button.donate#tipee {
     color: black;
     text-align: center;
 }
-
