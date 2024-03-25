@@ -122,25 +122,19 @@ div.btn-grid button {
     cursor: pointer;
 }
 
-button.btn-grid#projets:hover {
+#projets button:hover {
     background-color: black;
 }
 
-button.donate#ebuyclub {
+button#ebuyclub {
     background-color: #425bb3;
 }
 
-button.donate#tipee {
+button#tipee {
     background-color: #de4f59;
 }
 
-button.donate#ebuyclub:hover {
-    background-color: black;
-}
 
-button.donate#tipee:hover {
-    background-color: black;
-}
 
 
 
