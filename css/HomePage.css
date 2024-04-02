@@ -179,18 +179,20 @@ div.social-media {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    gap: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+
 div.social-media .fa {
     padding: 20px;
     font-size: 30px;
-    width: 70px;
     border-radius: 50%;
     text-decoration: none;
-    margin: 5px 2px;
+    text-align: center;
 }
+
 div.social-media .fa-facebook {
     background: #3B5998;
     color: white;
@@ -207,7 +209,7 @@ div.social-media .fa-linkedin {
 }
 
 div.social-media .fa-instagram {
-    background: #125688;
+    background: #881253;
     color: white;
 }
 
@@ -216,4 +218,7 @@ div.social-media .fa-youtube {
     color: white;
 }
 
-
+div.social-media .fa-github {
+    background: #333;
+    color: white;
+}
