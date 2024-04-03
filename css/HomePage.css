@@ -120,8 +120,8 @@ div#projets button {
 }
 
 div#donate button {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border: none;
     color: white;
     font-size: 30px;
@@ -159,19 +159,27 @@ button#VoiceIn {
 img#babylon-logo {
     height: 50%;
     width: 50%;
-    margin-left: 10px;
     float: left;
+
 
 }
 
-#span-ebuyclub {
+.donate-span {
     float: left;
     position: relative;
-    top: -20px;
     margin-left: 10px;
     font-size: 20px;
     color: white;
 }
+
+.donate-span#span-ebuyclub {
+    top: 40px;
+}
+
+.donate-span#span-tipee {
+    top: 30px;
+}
+
 
 .homepage-logo img {
     display: block;
