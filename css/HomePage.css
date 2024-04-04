@@ -156,6 +156,10 @@ button#VoiceIn {
     background-color: #d45f84;
 }
 
+button#hostinger {
+    background-color: #6f4e37;
+}
+
 img#babylon-logo {
     height: 50%;
     width: 50%;
@@ -163,6 +167,17 @@ img#babylon-logo {
     margin-left: 30%;
     margin-right: 10%;
 
+}
+
+img.compagny-logo {
+    height: 50%;
+    width: 50%;
+    float: left;
+    margin-left: 30%;
+    margin-right: 10%;
+}
+img#hostinger-logo {
+    fill: red;
 }
 
 .donate-span {
