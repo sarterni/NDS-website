@@ -332,12 +332,12 @@ button[disabled] {
 
     .nav-content {
         flex-direction: column;
-
-        
-
+    }
+    div.btn-grid {
+        flex-direction: column;
     }
 
-    div.btn-grid {
+    div.social-media {
         flex-direction: column;
     }
 }
