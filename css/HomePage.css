@@ -292,6 +292,10 @@ button[disabled] {
 }
 
 @media screen and (max-width: 1015px) {
+    .nav-menu {
+        flex-direction: column;
+    }
+
     div.btn-grid {
         flex-direction: column;
     }
