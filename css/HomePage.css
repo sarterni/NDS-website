@@ -1,21 +1,52 @@
-html {
-    display: block;
-}
+
 
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar-image {
-    width: 5%;
-    height: 5%;
-    margin-left: 1px;
-    margin-right: 5px;
+.nav-menu {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 5%;
+    padding-left: 20px;
+
 }
 
+.navbar-image {
+    display: flex; /* Make the navbar-image a flex container */
+    align-items: center; /* Align items vertically in the center */
+}
+
+.navbar-image img {
+    width: 30px; /* Set a fixed width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some margin for spacing */
+}
+
+.nav-content {
+    list-style-type: none; /* Remove list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+
+
+
+
 li {
-    float: left;
+    display: inline-block;
 }
 
 li a {
@@ -34,22 +65,9 @@ li a:hover:not(.active) {
     background-color: #04aa6d;
 }
 
-.nav-menu {
-    list-style-type: none;
 
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    margin: 0;
-    margin-bottom: 5%;
-    padding-left: 20px;
+div.Restricted {
+float: right;
 }
 
 .sec-faq {
@@ -291,13 +309,24 @@ button[disabled] {
     pointer-events: none;
 }
 
-@media screen and (max-width: 1015px) {
-    .nav-menu {
-        flex-direction: column;
-    }
-
-    div.btn-grid {
-        flex-direction: column;
-    }
+.nav-Togle-btn {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
 }
 
+@media screen and (max-width: 1071px) {
+    .nav-menu {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .nav-Togle-btn {
+        display: block;
+    }
+
+    .nav-content {
+        flex-direction: column;
+
+    }
+}
