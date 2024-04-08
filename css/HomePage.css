@@ -284,3 +284,9 @@ div.social-media .fa:hover {
     background-color: #a028a0;
     color: white;
 }
+
+button[disabled] {
+    opacity: 0.5;
+    cursor: none;
+    pointer-events: none;
+}
