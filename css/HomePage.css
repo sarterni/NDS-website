@@ -290,3 +290,10 @@ button[disabled] {
     cursor: none;
     pointer-events: none;
 }
+
+@media screen and (max-width: 1015px) {
+    div.btn-grid {
+        flex-direction: column;
+    }
+}
+
