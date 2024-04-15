@@ -77,6 +77,18 @@ div.Restricted {
 float: right;
 }
 
+.nav-Togle-btn {
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    
+}
+.nav-Togle-btn:hover {
+    background-color: #111;
+    color: white;
+
+}
+
 .sec-faq {
     display: flex;
     justify-content: center;
@@ -320,17 +332,6 @@ button#tipee:disabled  {
     cursor: not-allowed;
 }
 
-.nav-Togle-btn {
-    font-size: 30px;
-    cursor: pointer;
-    border: none;
-    
-}
-.nav-Togle-btn:hover {
-    background-color: #111;
-    color: white;
-
-}
 
 @media screen and (max-width: 1071px) {
     .nav-content {
