@@ -315,10 +315,9 @@ div.social-media .fa:hover {
     color: white;
 }
 
-button[disabled] {
-    opacity: 0.5;
-    cursor: none;
-    pointer-events: none;
+button#tipee:disabled  {
+    background-color: #b3b3b3;
+    cursor: not-allowed;
 }
 
 .nav-Togle-btn {
