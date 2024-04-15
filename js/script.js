@@ -10,3 +10,9 @@ function toggleNav() {
         nav.style.display = "none";
     }
 }
+
+document.querySelector('#tipee').parentNode.addEventListener('click', function(e) {
+    if (document.querySelector('#tipee').disabled) {
+        e.preventDefault();
+    }
+});

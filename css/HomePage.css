@@ -270,6 +270,15 @@ div.social-media .fa {
     align-items: center;
 }
 
+div.social-media .fa-github {
+    background: #333;
+    color: white;
+}
+
+div.social-media .fa-envelope {
+    background: #502929;
+    color: white;
+}
 div.social-media .fa-facebook {
     background: #3b5998;
     color: white;
@@ -295,10 +304,6 @@ div.social-media .fa-youtube {
     color: white;
 }
 
-div.social-media .fa-github {
-    background: #333;
-    color: white;
-}
 
 div.social-media .fa:hover {
     background-color: #ddd;
