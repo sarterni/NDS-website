@@ -269,7 +269,7 @@ div.social-media {
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-div.social-media .fa {
+div.social-media .fab {
     width: 50px;
     height: 50px;
     padding: 20px;
@@ -286,11 +286,16 @@ div.social-media .fa-github {
     background: #333;
     color: white;
 }
-
-div.social-media .fa-envelope {
-    background: #502929;
+div.social-media .fa-discord {
+    background: #7289da;
     color: white;
 }
+div.social-media .fa-rocketchat {
+    background: #881214;
+    color: white;
+
+}
+
 div.social-media .fa-facebook {
     background: #3b5998;
     color: white;
@@ -317,7 +322,7 @@ div.social-media .fa-youtube {
 }
 
 
-div.social-media .fa:hover {
+div.social-media .fab:hover {
     background-color: #ddd;
     color: black;
 }
