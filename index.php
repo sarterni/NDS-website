@@ -1,3 +1,9 @@
+<?php
+require_once 'init.php'; // Adjust the path as necessary
+
+// The rest of your index.php code follows
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/HomePage.css" />
+        <link rel="stylesheet" href="<?php echo htmlspecialchars(version('./css/HomePage.css')); ?>">    
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <title>Nicodigitalsstudo</title>
 </head>
@@ -144,7 +150,7 @@
             <button id="moovance" class="moovance-button">
                 <img id="moovance-logo" class="company-logo" src="./img/logo-moovance.png" alt="Moovance Logo" />
                 <span id="span-moovance" class="donate-span">Utilise le code sarte#17605 Pour gagner 6 mooves</span>
-            </button>   
+            </button>
         </a>
 
         <a href="https://dictanote.co/voicein/install/?r=646920" style="text-decoration: none;">
@@ -163,7 +169,7 @@
 
 
 
-        
+
     </div>
 
     <h1 class="main-title">Suivez moi sur :</h1>
