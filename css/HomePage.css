@@ -14,7 +14,7 @@ body {
     z-index: 1000;
     list-style-type: none;
     overflow: hidden;
-    background-color: #89920f;
+    background-color: #333;
     position: fixed;
     top: 0;
     width: 100%;
