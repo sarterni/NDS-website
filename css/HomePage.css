@@ -98,13 +98,6 @@ float: right;
     padding: 20px;
 }
 
-/* .home-page section.sec-faq h1 {
-
-    text-decoration: underline;
-    text-decoration-thickness: 5px;
-    text-underline-offset: 8px;
-
-} */
 
 section p {
     font-size: 20px;
@@ -157,96 +150,68 @@ div#projets button {
 }
 
 div#donate button {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border: none;
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    padding: 10px 24px;
+    padding: 10px;
     cursor: pointer;
 }
-
-div#projets.btn-grid button:hover {
-    background-color: black;
+div#donate button:hover {
+    background-color: #f0f0f0;
 }
 
-div#donate.btn-grid button:hover {
-    background-color: black;
-}
+button#babylon {
+    background-color: #777a7f;
 
-
-
-button#ebuyclub {
-    background-color: #425bb3;
-}
-
-button#tipee {
-    background-color: #de4f59;
-}
-
-button#VoiceIn {
-    background-color: #d45f84;
 }
 
 button#hostinger {
-    background-color: #6f4e37;
+    background-color: #673de6;
+
 }
 
-img#babylon-logo {
-    height: 50%;
-    width: 50%;
+button#moovance {
+    background-color: #145d92;
+
 }
 
-img#moovance-logo {
-    height: 30%;
-    width: 30%;
+button#dictanote {
+    background-color: #d45f84;
+
 }
 
-img.compagny-logo {
-    float: left;
-    margin-right: 10%;
+button#tipeee {
+    background-color: #de4f59;
+
 }
 
-button > img {
-    display: block; /* Rend l'image un bloc pour permettre le centrage */
-    margin: auto; /* Centre l'image horizontalement */
-    text-align: center; /* Centre le texte (si applicable) */
+button#ebuyclub {
+    background-color: #077bc2;
+
 }
 
 
+.company-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
 
 .donate-span {
-    float: left;
-    position: relative;
-    margin-left: 10px;
-    font-size: 20px;
-    color: white;
+    font-size: 16px;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
 }
 
 
-.donate-span#span-ebuyclub {
-    top: 40px;
-}
-
-.donate-span#span-tipee {
-    top: 30px;    
-    }
-    
-    
-    button#tipee:disabled  {
-        background-color: #b3b3b3;
-        cursor: not-allowed;
-    }
-    button#moovance:disabled  {
-        background-color: #016a6c;
-        cursor: not-allowed;
-    }
-    
 .homepage-logo img {
     display: block;
     margin-left: auto;
@@ -276,7 +241,6 @@ div.social-media {
     margin-top: 10px;
     margin-bottom: 10px;
 
-    /* From https://css.glass */
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
