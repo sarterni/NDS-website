@@ -65,7 +65,7 @@
             </p>
         </div>
         <button id="scrollIntoView"
-            onclick="document.getElementById('projets').scrollIntoView({ behavior: 'smooth' });">Découvrir mes
+            onclick="document.getElementById('projets-section').scrollIntoView({ behavior: 'smooth' });">Découvrir mes
             projets</button>
 
     </section>
