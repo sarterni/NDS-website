@@ -125,7 +125,7 @@
             <!-- Step 1 & 2: Wrap the button and add a badge -->
             <div class="button-container">
                 <a href="https://weather-app.nicodigitalsstudio.com/" style="text-decoration: none">
-                    <button id="new-btn">joue au PetitBac</button>
+                    <button id="new-btn">Joue au PetitBac</button>
                     <span class="badge">New</span> <!-- Badge text -->
                 </a>
             </div>
