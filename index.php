@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/HomePage.css?v=<?php echo filemtime('css/HomePage.css'); ?>">        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/HomePage.css?v=<?php echo filemtime('css/HomePage.css'); ?>">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <title>Nicodigitalsstudo</title>
 </head>
 
@@ -93,13 +94,13 @@
 
     <div class="btn-grid" id="projets">
 
-    <!-- Step 1 & 2: Wrap the button and add a badge -->
-<div class="button-container">
-    <a href="https://weather-app.nicodigitalsstudio.com/" style="text-decoration: none">
-        <button id="new-btn">joue au PetitBac</button>
-        <span class="badge">New</span> <!-- Badge text -->
-    </a>
-</div>
+        <!-- Step 1 & 2: Wrap the button and add a badge -->
+        <div class="button-container">
+            <a href="https://weather-app.nicodigitalsstudio.com/" style="text-decoration: none">
+                <button id="new-btn">joue au PetitBac</button>
+                <span class="badge">New</span> <!-- Badge text -->
+            </a>
+        </div>
 
         <a href="https://weather-app.nicodigitalsstudio.com/" style="text-decoration: none">
             <button class="">Mon site météo</button>
@@ -152,7 +153,7 @@
             <button id="moovance" class="moovance-button">
                 <img id="moovance-logo" class="company-logo" src="./img/logo-moovance.png" alt="Moovance Logo" />
                 <span id="span-moovance" class="donate-span">Utilise le code sarte#17605 Pour gagner 6 mooves</span>
-            </button>   
+            </button>
         </a>
 
         <a href="https://dictanote.co/voicein/install/?r=646920" style="text-decoration: none;">
@@ -171,14 +172,14 @@
 
 
 
-        
+
     </div>
 
     <h1 class="main-title">Suivez moi sur :</h1>
 
     <section class="sec-faq" id="no6">
         <div class="social-media">
-            <a href="mailto:contact@nicodigitalsstudio.com" class="fab fa-rocketchat"></a>
+            <a href="mailto:contact@nicodigitalsstudio.com" class="fa fa-rocketchat"></a>
             <a href="https://github.com/sarterni" class="fab fa-github"></a>
             <a href="discordapp.com/users/689827486204297227" class="fab fa-discord"></a>
             <a href="https://linkedin.com" class="fab fa-linkedin"></a>
