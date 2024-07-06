@@ -179,7 +179,7 @@
 
     <section class="sec-faq" id="no6">
         <div class="social-media">
-            <a href="mailto:contact@nicodigitalsstudio.com" class="fa fa-rocketchat"></a>
+            <a href="mailto:contact@nicodigitalsstudio.com" class="fab fa-rocketchat"></a>
             <a href="https://github.com/sarterni" class="fab fa-github"></a>
             <a href="discordapp.com/users/689827486204297227" class="fab fa-discord"></a>
             <a href="https://linkedin.com" class="fab fa-linkedin"></a>
