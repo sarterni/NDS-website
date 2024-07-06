@@ -149,6 +149,25 @@ div#projets button {
     cursor: pointer;
 }
 
+/* Step 3: Container positioning */
+.button-container {
+    position: relative;
+    display: inline-block; /* Keeps the container size as per the button */
+}
+
+/* Step 4 & 5: Badge styling */
+.badge {
+    position: absolute;
+    top: -10px; /* Adjust as needed */
+    right: 0px; /* Adjust as needed */
+    background-color: red; /* Badge background */
+    padding: 5px 10px; /* Adjust based on badge size */
+    color: white; /* Badge text color */
+    font-size: 29px; /* Badge text size */
+    font-weight: bold;
+}
+
+
 div#donate button {
     width: 200px;
     height: 200px;

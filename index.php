@@ -15,7 +15,7 @@
     <ul class="nav-menu">
         <button class="nav-Togle-btn" onclick="toggleNav()">☰</button>
         <div class="navbar-image">
-            <img src="img/logoNDS.png" alt="" />
+            <img src="./logoNDS.png" alt="" />
         </div>
         <div class="nav-content">
             <li>
@@ -46,7 +46,7 @@
 
     <div class="home-page">
         <div class="homepage-logo">
-            <img id="logo" src="/img/logoNDS.png" alt="" />
+            <img id="logo" src="./logoNDS.png" alt="" />
         </div>
 
         <h1 class="main-title">Nico Digitals Studio</h1>
@@ -92,6 +92,15 @@
     <h1 class="main-title">Mes projets</h1>
 
     <div class="btn-grid" id="projets">
+
+    <!-- Step 1 & 2: Wrap the button and add a badge -->
+<div class="button-container">
+    <a href="https://weather-app.nicodigitalsstudio.com/" style="text-decoration: none">
+        <button id="new-btn">joue au PetitBac</button>
+        <span class="badge">New</span> <!-- Badge text -->
+    </a>
+</div>
+
         <a href="https://weather-app.nicodigitalsstudio.com/" style="text-decoration: none">
             <button class="">Mon site météo</button>
         </a>
