@@ -144,26 +144,27 @@ div#projets button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 4px 2px;
+    margin: 0 10px;
     padding: 10px 24px;
     cursor: pointer;
 }
 
-/* Step 3: Container positioning */
+#projets button {
+    margin: 0 10px;
+}
 .button-container {
     position: relative;
-    display: inline-block; /* Keeps the container size as per the button */
+    display: inline-block;
 }
 
-/* Step 4 & 5: Badge styling */
 .badge {
     position: absolute;
-    top: -10px; /* Adjust as needed */
-    right: 0px; /* Adjust as needed */
-    background-color: red; /* Badge background */
-    padding: 5px 10px; /* Adjust based on badge size */
-    color: white; /* Badge text color */
-    font-size: 29px; /* Badge text size */
+    top: -10px;
+    right: 0px;
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+    font-size: 29px;
     font-weight: bold;
 }
 
@@ -182,6 +183,10 @@ div#donate button {
 }
 div#donate button:hover {
     background-color: #f0f0f0;
+}
+
+div#projets button:hover {
+    background-color: #000000;
 }
 
 button#babylon {
