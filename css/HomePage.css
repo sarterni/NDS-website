@@ -31,20 +31,20 @@ body {
 }
 
 .navbar-image {
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
 
 }
 
 .navbar-image img {
-    width: 100px; 
+    width: 100px;
     height: auto;
     margin-right: 10px;
 }
 
 .nav-content {
-    list-style-type: none; 
-    margin: 0; 
+    list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 
@@ -74,15 +74,16 @@ li a:hover:not(.active) {
 
 
 div.Restricted {
-float: right;
+    float: right;
 }
 
 .nav-Togle-btn {
     font-size: 30px;
     cursor: pointer;
     border: none;
-    
+
 }
+
 .nav-Togle-btn:hover {
     background-color: #111;
     color: white;
@@ -97,11 +98,28 @@ float: right;
     margin-top: 5%;
     padding: 20px;
 }
+div.content-container {
+    
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    
+}
 
+div.content-container h1 {
+        margin: auto; /* Utile si vous avez besoin de centrer le bloc h1 lui-même, pas juste son texte */
+        display: block; /* Assurez-vous que h1 est traité comme un bloc pour le centrage */
+        width: fit-content; /* Optionnel: cela peut aider si vous voulez que le h1 ait la largeur de son contenu */
+    }
 
 section p {
     font-size: 20px;
     text-align: center;
+}
+
+#no0 {
+    background-color: #a0a0a0;
+    color: #000000;
 }
 
 #no1 {
@@ -121,7 +139,17 @@ section p {
 
 #no4 {
     background-color: #a0a028;
+    color: black;
+}
+
+button#scrollIntoView {
+    background-color: #000000;
     color: white;
+    border: none;
+    padding: 10px 24px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 div.btn-grid {
@@ -152,6 +180,7 @@ div#projets button {
 #projets button {
     margin: 0 10px;
 }
+
 .button-container {
     position: relative;
     display: inline-block;
@@ -181,10 +210,13 @@ div#donate button {
     padding: 10px;
     cursor: pointer;
 }
+
 div#donate button:hover {
     background-color: #f0f0f0;
 }
-
+button#scrollIntoView:hover {
+background-color: #ff0000;
+}
 div#projets button:hover {
     background-color: #000000;
 }
@@ -240,19 +272,19 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;    
+    margin-top: 10%;
 }
 
 .main-title {
     font-size: 40px;
     color: black;
-    text-align: center;    
+    text-align: center;
 }
 
 .secondary-title {
     font-size: 20px;
     color: black;
-    text-align: center;    
+    text-align: center;
 }
 
 div.social-media {
@@ -270,7 +302,7 @@ div.social-media {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);    
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 div.social-media .fab {
@@ -283,57 +315,59 @@ div.social-media .fab {
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
 div.social-media .fa-github {
     background: #333;
-    color: white;    
+    color: white;
 }
+
 div.social-media .fa-discord {
     background: #7289da;
-    color: white;    
+    color: white;
 }
+
 div.social-media .fa-rocketchat {
     background: #881214;
     color: white;
-    
+
 }
 
 div.social-media .fa-facebook {
     background: #3b5998;
-    color: white;    
+    color: white;
 }
 
 div.social-media .fa-twitter {
     background: #55acee;
-    color: white;    
+    color: white;
 }
 
 div.social-media .fa-linkedin {
     background: #007bb5;
-    color: white;    
+    color: white;
 }
 
 div.social-media .fa-instagram {
     background: #881253;
-    color: white;    
+    color: white;
 }
 
 div.social-media .fa-youtube {
     background: #bb0000;
-    color: white;    
+    color: white;
 }
 
 
 div.social-media .fab:hover {
     background-color: #ddd;
-    color: black;    
+    color: black;
 }
 
 #no6 {
     background-color: #a028a0;
-    color: white;    
+    color: white;
 }
 
 
@@ -356,6 +390,7 @@ div.social-media .fab:hover {
         flex-direction: column;
         align-items: center;
     }
+
     div.social-media {
         flex-direction: column;
         align-items: center;

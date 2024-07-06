@@ -16,3 +16,4 @@ document.querySelector('#tipee').parentNode.addEventListener('click', function(e
         e.preventDefault();
     }
 });
+
