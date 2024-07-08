@@ -287,6 +287,10 @@ a {
     text-align: center;
 }
 
+#sc-title {
+    color: #fff;
+}
+
 div.social-media {
     display: flex;
     justify-content: center;
@@ -370,6 +374,25 @@ div.social-media .fab:hover {
     color: white;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline #04aa6d;
+}
 
 @media screen and (max-width: 1071px) {
     .nav-content {

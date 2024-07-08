@@ -208,9 +208,9 @@
         </a>
     </div>
 
-    <h1 class="main-title">Suivez moi sur :</h1>
 
     <section class="sec-faq" id="no6">
+        <h1 class="main-title" id="sc-title">Suivez moi sur :</h1>
         <div class="social-media">
             <a href="mailto:contact@nicodigitalsstudio.com" class="fab fa-rocketchat"></a>
             <a href="https://github.com/sarterni" class="fab fa-github"></a>
@@ -222,6 +222,22 @@
             <a href="https://youtube.com" class="fab fa-youtube"></a>
         </div>
     </section>
+
+    <footer>
+        <p>© 2024 Nico Digitals Studio</p>
+        <div class="links">
+            <a href="https://nicodigitalsstudio.com/">home |</a>
+            <a href="https://webportrait.nicodigitalsstudio.com/">webportrait |</a>
+            <a href="https://weather-app.nicodigitalsstudio.com/">weather |</a>
+            <a href="https://games.nicodigitalsstudio.com/">my games |</a>
+            <a href="https://games.nicodigitalsstudio.com/podcast/podcast.html">podcast </a>
+            <!-- <a href="">portfolio</a>
+            <a href="">support me</a>
+            <a href="">contact</a>
+            <a href="">about</a> -->
+        </div>
+
+    </footer>
 
     <script src="./js/script.js"></script>
 </body>
