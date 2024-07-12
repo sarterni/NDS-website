@@ -147,6 +147,52 @@
             </a>
         </div>
     </section>
+    <h1 class="main-title">Mes Partenaires</h1>
+    <div class="handijojoText-div">
+        <p id="handijojo-text">HandiJojo</p>
+        <p>Depuis un grave accident, je suis lourdement handicapé. Je vis en Moselle. Je retrouve le goût à la vie grâce
+            à de nombreuses activités que je souhaite vous faire découvrir</p>
+    </div>
+
+    <div class="btn-grid" id="parterners">
+
+        <a href="https://www.youtube.com/channel/UC-GiuOvF_TdfICy2JzCfliw" style="text-decoration: none;">
+            <button id="handijojo-youtube" class="handijojo-youtube-button">
+                <img id="handijojo-logo-youtube" class="company-logo" src="./img/handijojo.png" alt="HandiJojo Logo" />
+                <span id="span-handijojo-youtube" class="donate-span">Clique Ici pour découvrir la chaine</span>
+            </button>
+        </a>
+
+        <a href="https://www.instagram.com/handi.jojo?utm_source=qr" style="text-decoration: none">
+            <button id="handijojo-instagram" class="handijojo-instagram-button">
+                <img id="handijojo-logo-instagram" class="company-logo" src="./img/handijojo.png"
+                    alt="HandiJojo Logo" />
+                <span id="span-handijojo-instagram" class="donate-span">Clique Ici pour découvrir le site</span>
+            </button>
+        </a>
+
+        <a href="https://www.tiktok.com/@handijojo?lang=fr" style="text-decoration: none;">
+            <button id="handijojo-tiktok" class="handijojo-tiktok-button">
+                <img id="handijojo-logo-tiktok" class="company-logo" src="./img/handijojo.png" alt="HandiJojo Logo" />
+                <span id="span-handijojo-tiktok" class="donate-span">Clique Ici pour découvrir le tiktok</span>
+            </button>
+        </a>
+        <a href="https://www.facebook.com/people/HandiJojo/61559819096907/?mibextid=kFxxJD"
+            style="text-decoration: none;">
+            <button id="handijojo-facebook" class="handijojo-facebook-button">
+                <img id="handijojo-logo-facebook" class="company-logo" src="./img/handijojo.png" alt="HandiJojo Logo" />
+                <span id="span-handijojo-facebook" class="donate-span">Clique Ici pour découvrir la page</span>
+            </button>
+        </a>
+
+
+
+
+
+
+    </div>
+
+
 
     <section id="donate-section">
 
