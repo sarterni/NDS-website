@@ -178,9 +178,7 @@ div#projets button {
     cursor: pointer;
 }
 
-#projets button {
-    margin: 0 10px;
-}
+
 
 .button-container {
     position: relative;
@@ -214,37 +212,13 @@ div#parterners button {
     cursor: pointer;
 }
 
-div#donate button:hover,
-div#parterners button:hover {
-    background-color: #f0f0f0;
+
+button#handijojo-tiktok {
+    background-color: #add8e6; /* Light blue */
 }
-
-button#scrollIntoView:hover {
-    background-color: #ff0000;
-}
-
-div#projets button:hover {
-    background-color: #000000;
-}
-
-div.handijojoText-div {
-max-width: 800px;
-margin: auto;
-text-align: center;
-
-}
-
-div.handijojoText-div p {
-    font-family: 'Arial', sans-serif;
-    color: #333;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 24px;
-}
-
 
 button#handijojo-facebook {
-    background-color: #3b5998;
+    background-color: #4e628b;
 }
 
 button#handijojo-twitter {
@@ -252,15 +226,11 @@ button#handijojo-twitter {
 }
 
 button#handijojo-instagram {
-    background-color: #881253;
+    background-color: #a91968;
 }
 
 button#handijojo-youtube {
     background-color: #bb0000;
-}
-
-button#handijojo-tiktok {
-    background-color: #000000;
 }
 
 button#babylon {
@@ -292,6 +262,36 @@ button#ebuyclub {
     background-color: #077bc2;
 
 }
+
+div#donate button:hover,
+div#parterners button:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+button#scrollIntoView:hover {
+    background-color: #ff0000;
+}
+
+div#projets button:hover {
+    background-color: #000000;
+}
+
+div.handijojoText-div {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+
+}
+
+div.handijojoText-div p {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
 
 
 .company-logo {
