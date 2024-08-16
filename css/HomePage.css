@@ -153,13 +153,11 @@ button#scrollIntoView {
     margin-top: 10px;
 }
 
-div.btn-grid {
+.btn-grid {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    flex-direction: wrap;
 }
 
 div#projets button {
@@ -214,7 +212,7 @@ div#parterners button {
 
 
 button#handijojo-tiktok {
-    background-color: #add8e6; /* Light blue */
+    background-color: #add8e6;
 }
 
 button#handijojo-facebook {
@@ -436,7 +434,7 @@ footer a:hover {
     text-decoration: underline #04aa6d;
 }
 
-@media screen and (max-width: 1071px) {
+@media screen and (max-width: 1075px) {
     .nav-content {
         flex-direction: column;
         align-items: center;
@@ -451,13 +449,9 @@ footer a:hover {
         display: block;
     }
 
-    div.btn-grid {
-        flex-direction: column;
-        align-items: center;
+    .btn-grid {
+        flex-direction: column; /* Pour empiler les boutons verticalement sur les petits écrans */
     }
 
-    div.social-media {
-        flex-direction: column;
-        align-items: center;
-    }
+
 }
