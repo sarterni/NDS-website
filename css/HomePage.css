@@ -440,9 +440,12 @@ footer a:hover {
         align-items: center;
     }
 
-    .nav-menu {
+    ul.nav-menu {
         flex-direction: column;
+    }
 
+    div.homepage-logo {
+        margin-top: 275px;
     }
 
     .nav-Togle-btn {
@@ -450,8 +453,17 @@ footer a:hover {
     }
 
     .btn-grid {
-        flex-direction: column; /* Pour empiler les boutons verticalement sur les petits écrans */
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
+
+    div.social-media {
+        flex-direction: column;
+        gap: 10px;
+    }
+
 
 
 }
