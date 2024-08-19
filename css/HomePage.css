@@ -464,6 +464,11 @@ footer a:hover {
         gap: 10px;
     }
 
+    body {
+        overflow-x: hidden;
+        /* Bloque le défilement horizontal de la page. */
+    }
+
 
 
 }
