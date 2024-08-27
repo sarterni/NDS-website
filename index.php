@@ -5,16 +5,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Nicodigitalsstudio - Your go-to platform for digital solutions, web portraits, weather updates, games, and podcasts." />
+    <meta name="keywords"
+        content="Nicodigitalsstudio, digital solutions, web portraits, weather updates, games, podcasts" />
+    <meta name="author" content="Nicodigitalsstudio" />
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/HomePage.css?v=<?php echo filemtime('css/HomePage.css'); ?>">
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/HomePage.css?v=<?php echo filemtime('css/HomePage.css'); ?>" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <title>Nicodigitalsstudo</title>
+    <title>Nicodigitalsstudio</title>
 </head>
 
 <body>
-
-    
     <ul class="nav-menu">
         <button class="nav-Togle-btn" onclick="toggleNav()">☰</button>
         <div class="navbar-image">
@@ -48,7 +52,8 @@
     </ul>
     <div class="scrolling-container">
         <div class="scrolling-text">
-            This is the scrolling text. It will move from right to left continuously.
+            This is the scrolling text. It will move from right to left
+            continuously.
         </div>
     </div>
 
@@ -58,28 +63,25 @@
 
     <h1 class="main-title">Nico Digitals Studio</h1>
 
-    <p class="secondary-title">
-        Futur studio de développement web indépendant
-    </p>
+    <p class="secondary-title">Futur studio de développement web indépendant</p>
 
     <section class="sec-faq" id="no0">
         <div class="content-container">
             <h1>Qui suis-je ?</h1>
             <p>
                 Je suis un étudiant en informatique, passionné par le développement
-                web et le design. J'ai créé ce site pour vous présenter mes projets
-                et mes compétences.
+                web et le design. J'ai créé ce site pour vous présenter mes projets et
+                mes compétences.
             </p>
         </div>
         <button id="scrollIntoView"
-            onclick="document.getElementById('projets-section').scrollIntoView({ behavior: 'smooth' });">Découvrir mes
-            projets</button>
-
+            onclick="document.getElementById('projets-section').scrollIntoView({ behavior: 'smooth' });">
+            Découvrir mes projets
+        </button>
     </section>
 
     <section class="sec-faq" id="no1">
         <div class="content-container">
-
             <h1>Quel est mon but ?</h1>
             <p>
                 Mon but est de créer un studio de développement web indépendant, qui
@@ -97,7 +99,6 @@
 
     <section class="sec-faq" id="no3">
         <div class="content-container">
-
             <h1>A propos de moi</h1>
             <p>
                 Je suis aussi un autodidacte, j'ai appris à coder certains langages en
@@ -112,28 +113,29 @@
         <div class="content-container">
             <h1>Me soutenir, c'est important</h1>
             <p>
-                Si vous souhaitez me soutenir, vous pouvez le faire en cliquant sur les boutons ci-dessous. Vous
-                pouvez aussi me contacter pour me proposer des projets ou des collaborations.
+                Si vous souhaitez me soutenir, vous pouvez le faire en cliquant sur
+                les boutons ci-dessous. Vous pouvez aussi me contacter pour me
+                proposer des projets ou des collaborations.
             </p>
         </div>
 
         <!-- Ajout d'un bouton pour faire défiler la page jusqu'à l'élément avec l'ID "donane" -->
         <button id="scrollIntoView"
-            onclick="document.getElementById('donate-section').scrollIntoView({ behavior: 'smooth' });">Soutenir mon
-            travail</button>
+            onclick="document.getElementById('donate-section').scrollIntoView({ behavior: 'smooth' });">
+            Soutenir mon travail
+        </button>
     </section>
 
     <section id="projets-section">
-
         <h1 class="main-title">Mes projets</h1>
 
         <div class="btn-grid" id="projets">
-
             <!-- Step 1 & 2: Wrap the button and add a badge -->
             <div class="button-container">
                 <a href="https://weather-app.nicodigitalsstudio.com/" style="text-decoration: none">
                     <button id="new-btn">Joue au PetitBac</button>
-                    <span class="badge">New</span> <!-- Badge text -->
+                    <span class="badge">New</span>
+                    <!-- Badge text -->
                 </a>
             </div>
 
@@ -157,13 +159,15 @@
     <h1 class="main-title">Mes Partenaires</h1>
     <div class="handijojoText-div">
         <p id="handijojo-text">HandiJojo</p>
-        <p>Depuis un grave accident, je suis lourdement handicapé. Je vis en Moselle. Je retrouve le goût à la vie grâce
-            à de nombreuses activités que je souhaite vous faire découvrir</p>
+        <p>
+            Depuis un grave accident, je suis lourdement handicapé. Je vis en
+            Moselle. Je retrouve le goût à la vie grâce à de nombreuses activités
+            que je souhaite vous faire découvrir
+        </p>
     </div>
 
     <div class="btn-grid" id="parterners">
-
-        <a href="https://www.youtube.com/channel/UC-GiuOvF_TdfICy2JzCfliw" style="text-decoration: none;">
+        <a href="https://www.youtube.com/channel/UC-GiuOvF_TdfICy2JzCfliw" style="text-decoration: none">
             <button id="handijojo-youtube" class="handijojo-youtube-button">
                 <img id="handijojo-logo-youtube" class="company-logo" src="./img/youtube_logo.jpeg"
                     alt="HandiJojo Logo" />
@@ -179,8 +183,7 @@
             </button>
         </a>
 
-
-        <a href="https://www.tiktok.com/@handijojo?lang=fr" style="text-decoration: none;">
+        <a href="https://www.tiktok.com/@handijojo?lang=fr" style="text-decoration: none">
             <button id="handijojo-tiktok" class="handijojo-tiktok-button">
                 <img id="handijojo-logo-tiktok" class="company-logo" src="./img/tiktok-icon-free-png.webp"
                     alt="HandiJojo Logo" />
@@ -188,29 +191,19 @@
             </button>
         </a>
         <a href="https://www.facebook.com/people/HandiJojo/61559819096907/?mibextid=kFxxJD"
-            style="text-decoration: none;">
+            style="text-decoration: none">
             <button id="handijojo-facebook" class="handijojo-facebook-button">
                 <img id="handijojo-logo-facebook" class="company-logo" src="./img/Facebook_Logo_2023.png"
                     alt="HandiJojo Logo" />
                 <span id="span-handijojo-facebook" class="donate-span">Clique Ici pour découvrir la page</span>
             </button>
         </a>
-
-
-
-
-
-
     </div>
 
-
-
     <section id="donate-section">
-
         <h1 class="main-title">Me soutenir</h1>
 
         <div class="btn-grid" id="donate">
-
             <a href="https://hostinger.fr?REFERRALCODE=1NICOLAS267" style="text-decoration: none">
                 <button id="hostinger" class="hostinger-button">
                     <img id="hostinger-logo" class="company-logo" src="./img/hostinger-logo.svg" alt="Hostinger Logo" />
@@ -225,14 +218,14 @@
                 </button>
             </a>
 
-            <a href="https://www.moovance.fr/" style="text-decoration: none;">
+            <a href="https://www.moovance.fr/" style="text-decoration: none">
                 <button id="moovance" class="moovance-button">
                     <img id="moovance-logo" class="company-logo" src="./img/logo-moovance.png" alt="Moovance Logo" />
                     <span id="span-moovance" class="donate-span">Utilise le code sarte#17605 Pour gagner 6 mooves</span>
                 </button>
             </a>
 
-            <a href="https://dictanote.co/voicein/install/?r=646920" style="text-decoration: none;">
+            <a href="https://dictanote.co/voicein/install/?r=646920" style="text-decoration: none">
                 <button id="dictanote" class="dictanote-button">
                     <img id="dictanote-logo" class="company-logo" src="./img/icon-voicein144.png"
                         alt="Dictanote Logo" />
@@ -240,23 +233,17 @@
                 </button>
             </a>
 
-            <a href="https://fr.tipeee.com/" style="text-decoration: none;">
+            <a href="https://fr.tipeee.com/" style="text-decoration: none">
                 <button id="tipeee" class="tipeee-button">
                     <img id="tipeee-logo" class="company-logo" src="./img/tipeee-logo-white.svg" alt="Tipeee Logo" />
                     <span id="span-tipeee" class="donate-span">Clique Ici pour me soutenir</span>
                 </button>
             </a>
-
-
-
-
         </div>
-
     </section>
     <h1 class="main-title">Je travaille pour</h1>
 
     <div class="btn-grid" id="donate">
-
         <a href="https://babylon-destruct.website/" style="text-decoration: none">
             <button id="babylon" class="babylon-button">
                 <img id="babylon-logo" class="company-logo" src="./img/babylon.png" alt="Babylon Logo" />
@@ -264,7 +251,6 @@
             </button>
         </a>
     </div>
-
 
     <section class="sec-faq" id="no6">
         <h1 class="main-title" id="sc-title">Suivez moi sur :</h1>
@@ -287,13 +273,13 @@
             <a href="https://webportrait.nicodigitalsstudio.com/">webportrait |</a>
             <a href="https://weather-app.nicodigitalsstudio.com/">weather |</a>
             <a href="https://games.nicodigitalsstudio.com/">my games |</a>
-            <a href="https://games.nicodigitalsstudio.com/podcast/podcast.html">podcast </a>
+            <a href="https://games.nicodigitalsstudio.com/podcast/podcast.html">podcast
+            </a>
             <!-- <a href="">portfolio</a>
             <a href="">support me</a>
             <a href="">contact</a>
             <a href="">about</a> -->
         </div>
-
     </footer>
 
     <script src="./js/script.js"></script>
