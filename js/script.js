@@ -1,3 +1,11 @@
+
+
+window.addEventListener('load', () => {
+    console.log('Page is fully loaded');
+    const scrollingText = document.querySelector('.scrolling-text');
+    scrollingText.style.animationDuration = '15s';
+});
+
 document.querySelector('nav-Togle-btn').onclick = toggleNav;
 
 
@@ -11,7 +19,7 @@ function toggleNav() {
     }
 }
 
-document.querySelector('#tipee').parentNode.addEventListener('click', function(e) {
+document.querySelector('#tipee').parentNode.addEventListener('click', function (e) {
     if (document.querySelector('#tipee').disabled) {
         e.preventDefault();
     }

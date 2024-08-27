@@ -13,6 +13,8 @@
 </head>
 
 <body>
+
+    
     <ul class="nav-menu">
         <button class="nav-Togle-btn" onclick="toggleNav()">☰</button>
         <div class="navbar-image">
@@ -44,6 +46,11 @@
             </a>
         </div>
     </ul>
+    <div class="scrolling-container">
+        <div class="scrolling-text">
+            This is the scrolling text. It will move from right to left continuously.
+        </div>
+    </div>
 
     <div class="homepage-logo">
         <img id="logo" src="./logoNDS.png" alt="" />
