@@ -8,35 +8,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* styles.css */
-
-.scrolling-container {
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-.scrolling-text {
-    display: inline-block;
-    padding-left: 100%;
-    animation: scroll-text 10s linear infinite;
-}
-
-@keyframes scroll-text {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
-#text {
-    font-size: 20px;
-    color: #fff;
-    padding: 10px;
-}
-
 
 .nav-menu {
     z-index: 1000;
@@ -159,6 +130,20 @@ section p {
 #no2 {
     background-color: #2828a0;
     color: white;
+}
+
+#no2 a {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#no2:hover a {
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+    visibility: visible;
 }
 
 #no3 {
@@ -494,9 +479,35 @@ footer a:hover {
 
     body {
         overflow-x: hidden;
-        /* Bloque le défilement horizontal de la page. */
     }
 
 
 
+}
+
+
+
+div.scrolling-text {
+    background-color: #000;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+div.scrolling-text span {
+    color: #fff;
+    display: inline-block;
+    padding-right: 100%;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
 }

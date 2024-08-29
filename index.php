@@ -18,6 +18,7 @@
     <title>Nicodigitalsstudio</title>
 </head>
 
+
 <body>
     <ul class="nav-menu">
         <button class="nav-Togle-btn" onclick="toggleNav()">☰</button>
@@ -50,17 +51,16 @@
             </a>
         </div>
     </ul>
-    <div class="scrolling-container">
-        <div class="scrolling-text">
-            This is the scrolling text. It will move from right to left
-            continuously.
-        </div>
-    </div>
-
+    
+    
     <div class="homepage-logo">
         <img id="logo" src="./logoNDS.png" alt="" />
     </div>
-
+    
+    <div class="scrolling-text">
+        <span>Ceci est un texte défilant de gauche à droite</span>
+    </div>
+    
     <h1 class="main-title">Nico Digitals Studio</h1>
 
     <p class="secondary-title">Futur studio de développement web indépendant</p>
@@ -69,8 +69,8 @@
         <div class="content-container">
             <h1>Qui suis-je ?</h1>
             <p>
-                Je suis un étudiant en informatique, passionné par le développement
-                web et le design. J'ai créé ce site pour vous présenter mes projets et
+                Je suis Nicolas Sarter, étudiant en Communication/Création digitale, passionné par le développement web
+                et le design. J'ai créé ce site pour vous présenter mes projets et
                 mes compétences.
             </p>
         </div>
@@ -94,7 +94,9 @@
 
     <section class="sec-faq" id="no2">
         <h1>Quel est mon parcours ?</h1>
-        <p>Je suis actuellement étudiant en BUT informatique</p>
+        <p>Je suis actuellement étudiant en L1 information comunication au <a
+                href="https://maps.app.goo.gl/chPauQmu6zW7ck116">Campus Lettres et Sciences Humaines de Nancy -
+                Université de Lorraine</a> </p>
     </section>
 
     <section class="sec-faq" id="no3">
