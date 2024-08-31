@@ -6,10 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
-        content="Nicodigitalsstudio - Your go-to platform for digital solutions, web portraits, weather updates, games, and podcasts." />
-    <meta name="keywords"
-        content="Nicodigitalsstudio, digital solutions, web portraits, weather updates, games, podcasts" />
-    <meta name="author" content="Nicodigitalsstudio" />
+        content="Nico Digital Studio - Your reference platform for digital solutions created by Nicolas SARTER" />
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
@@ -20,6 +17,10 @@
 
 
 <body>
+    <div class="scrolling-text">
+        <span>Ceci est un texte défilant de gauche à droite</span>
+    </div>
+
     <ul class="nav-menu">
         <button class="nav-Togle-btn" onclick="toggleNav()">☰</button>
         <div class="navbar-image">
@@ -51,16 +52,14 @@
             </a>
         </div>
     </ul>
-    
-    
+
+
     <div class="homepage-logo">
         <img id="logo" src="./logoNDS.png" alt="" />
     </div>
-    
-    <div class="scrolling-text">
-        <span>Ceci est un texte défilant de gauche à droite</span>
-    </div>
-    
+
+
+
     <h1 class="main-title">Nico Digitals Studio</h1>
 
     <p class="secondary-title">Futur studio de développement web indépendant</p>
