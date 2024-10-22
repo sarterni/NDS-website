@@ -26,7 +26,7 @@
         <div class="navbar-image">
             <img src="./logoNDS.png" alt="" />
         </div>
-        <div class="nav-content">
+        <div class="nav-content" aria-labelledby="Barre de navigation">
             <li>
                 <a class="active" href="https://nicodigitalsstudio.com/">home</a>
             </li>
@@ -40,7 +40,7 @@
             <li>
                 <a href="https://games.nicodigitalsstudio.com/podcast/podcast.html">podcast</a>
             </li>
-            <li><a href="">portfolio</a></li>
+            <li><a href="https://compact.univ-lorraine.fr/view/view.php?id=130318">portfolio</a></li>
             <li><a href="">support me</a></li>
             <li><a href="">contact</a></li>
             <li><a href="">about</a></li>
@@ -216,6 +216,13 @@
                 <button id="ebuyclub" class="ebuyclub-button">
                     <img id="ebuyclub-logo" class="company-logo" src="./img/ebuycub_logo.svg" alt="Ebuyclub Logo" />
                     <span id="span-ebuyclub" class="donate-span">Clique Ici pour recevoir 5€</span>
+                </button>
+            </a>
+
+            <a href="joinhoney.com/ref/a0faysg" style="text-decoration: none">
+                <button id="honey" class="honey-button">
+                    <img id="honey-logo" class="company-logo" src="./img/honey-logo.svg" alt="Honey Logo" />
+                    <span id="span-honey" class="donate-span">Clique Ici pour recevoir 5€</span>
                 </button>
             </a>
 
