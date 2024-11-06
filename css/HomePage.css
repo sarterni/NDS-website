@@ -165,7 +165,7 @@ div#donate button:hover,
 div#parterners button:hover {
     background-color: #f0f0f0;
     color: #000;
-    box-shadow: 10px 10px 5px 0px rgba(157,144,144,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(157, 144, 144, 0.75);
 }
 
 button#scrollIntoView:hover {
@@ -224,6 +224,45 @@ a {
     text-align: center;
 }
 
+#no0 {
+    background-color: #a0a0a0;
+    color: #000000;
+}
+
+#no1 {
+    background-color: green;
+    color: white;
+}
+
+#no2 {
+    background-color: #2828a0;
+    color: white;
+}
+
+#no2 a {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#no2:hover a {
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+    visibility: visible;
+}
+
+#no3 {
+    background-color: #a02828;
+    color: white;
+}
+
+#no4 {
+    background-color: #a0a028;
+    color: black;
+}
+
 div.social-media {
     display: flex;
     justify-content: center;
@@ -257,6 +296,39 @@ div.social-media .fab {
 div.social-media .fab:hover {
     background-color: #ddd;
     color: black;
+}
+
+div.social-media .fa-github {
+    background: #333;
+    color: white;
+}
+div.social-media .fa-discord {
+    background: #7289da;
+    color: white;
+}
+div.social-media .fa-rocketchat {
+    background: #881214;
+    color: white;
+}
+div.social-media .fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+div.social-media .fa-twitter {
+    background: #55acee;
+    color: white;
+}
+div.social-media .fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+div.social-media .fa-instagram {
+    background: #881253;
+    color: white;
+}
+div.social-media .fa-youtube {
+    background: #bb0000;
+    color: white;
 }
 
 footer {
