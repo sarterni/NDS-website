@@ -264,13 +264,13 @@
         <h1 class="main-title" id="sc-title">Suivez moi sur :</h1>
         <div class="social-media">
             <a href="mailto:contact@nicodigitalsstudio.com" class="fab fa-rocketchat"></a>
-            <a href="https://github.com/sarterni" class="fab fa-github"></a>
-            <a href="discordapp.com/users/689827486204297227" class="fab fa-discord"></a>
-            <a href="https://linkedin.com" class="fab fa-linkedin"></a>
             <a href="https://www.instagram.com/brindille070/" class="fab fa-instagram"></a>
+            <a href="https://linkedin.com/nsarter/" class="fab fa-linkedin"></a>
+            <a href="https://github.com/sarterni" class="fab fa-github"></a>
+            <!-- <a href="discordapp.com/users/689827486204297227" class="fab fa-discord"></a>
             <a href="https://facebook.com" class="fab fa-facebook"></a>
             <a href="https://twitter.com" class="fab fa-twitter"></a>
-            <a href="https://youtube.com" class="fab fa-youtube"></a>
+            <a href="https://youtube.com" class="fab fa-youtube"></a> -->
         </div>
     </section>
 

@@ -2,10 +2,12 @@ html {
     display: block;
 }
 
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .nav-menu {
     z-index: 1000;
@@ -21,13 +23,17 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0;
+    flex-direction: row;
     margin: 0;
+    margin-bottom: 5%;
     padding-left: 20px;
+
 }
 
 .navbar-image {
     display: flex;
     align-items: center;
+
 }
 
 .navbar-image img {
@@ -41,6 +47,10 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+
+
 
 li {
     display: inline-block;
@@ -62,15 +72,22 @@ li a:hover:not(.active) {
     background-color: #04aa6d;
 }
 
+
+div.Restricted {
+    float: right;
+}
+
 .nav-Togle-btn {
     font-size: 30px;
     cursor: pointer;
     border: none;
+
 }
 
 .nav-Togle-btn:hover {
     background-color: #111;
     color: white;
+
 }
 
 .sec-faq {
@@ -83,9 +100,11 @@ li a:hover:not(.active) {
 }
 
 div.content-container {
+
     max-width: 800px;
     margin: auto;
     text-align: center;
+
 }
 
 div.content-container h1 {
@@ -96,131 +115,6 @@ div.content-container h1 {
 
 section p {
     font-size: 20px;
-    text-align: center;
-}
-
-button#scrollIntoView {
-    background-color: #000000;
-    color: white;
-    border: none;
-    padding: 10px 24px;
-    cursor: pointer;
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.btn-grid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: wrap;
-}
-
-div#projets button {
-    background-color: #04aa6d;
-    width: 200px;
-    height: 200px;
-    border: none;
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    display: inline-block;
-    margin: 0 10px;
-    padding: 10px 24px;
-    cursor: pointer;
-}
-
-.button-container {
-    position: relative;
-    display: inline-block;
-}
-
-.badge {
-    position: absolute;
-    top: -10px;
-    right: 0px;
-    background-color: red;
-    padding: 5px 10px;
-    color: white;
-    font-size: 29px;
-    font-weight: bold;
-}
-
-div#donate button,
-div#parterners button {
-    width: 200px;
-    height: 200px;
-    margin: 0 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
-div#donate button:hover,
-div#parterners button:hover {
-    background-color: #f0f0f0;
-    color: #000;
-    box-shadow: 10px 10px 5px 0px rgba(157, 144, 144, 0.75);
-}
-
-button#scrollIntoView:hover {
-    background-color: #ff0000;
-}
-
-div#projets button:hover {
-    background-color: #000000;
-}
-
-div.handijojoText-div {
-    max-width: 800px;
-    margin: auto;
-    text-align: center;
-}
-
-div.handijojoText-div p {
-    font-family: 'Arial', sans-serif;
-    color: #333;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 24px;
-}
-
-.company-logo {
-    width: 100px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.donate-span {
-    font-size: 16px;
-    color: #000000;
-}
-
-a {
-    text-decoration: none;
-}
-
-.homepage-logo img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-}
-
-.main-title {
-    font-size: 40px;
-    color: black;
-    text-align: center;
-}
-
-.secondary-title {
-    font-size: 20px;
-    color: black;
     text-align: center;
 }
 
@@ -263,6 +157,200 @@ a {
     color: black;
 }
 
+button#scrollIntoView {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.btn-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: wrap;
+}
+
+div#projets button {
+    background-color: #04aa6d;
+    width: 200px;
+    height: 200px;
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 24px;
+    cursor: pointer;
+}
+
+
+
+.button-container {
+    position: relative;
+    display: inline-block;
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+
+
+div#donate button,
+div#parterners button {
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+button#handijojo-tiktok {
+    background-color: #add8e6;
+}
+
+button#handijojo-facebook {
+    background-color: #4e628b;
+}
+
+button#handijojo-twitter {
+    background-color: #55acee;
+}
+
+button#handijojo-instagram {
+    background-color: #a91968;
+}
+
+button#handijojo-youtube {
+    background-color: #bb0000;
+}
+
+button#babylon {
+    background-color: #777a7f;
+
+}
+
+button#hostinger {
+    background-color: #673de6;
+
+}
+
+button#ebuyclub {
+    background-color: #077bc2;
+
+}
+
+button#honey {
+    background-color: #0099FF;
+
+}
+button#moovance {
+    background-color: #145d92;
+
+}
+
+button#dictanote {
+    background-color: #d45f84;
+
+}
+
+button#tipeee {
+    background-color: #de4f59;
+
+}
+
+
+div#donate button:hover,
+div#parterners button:hover {
+    background-color: #f0f0f0;
+    color: #000;
+    box-shadow: 10px 10px 5px 0px rgba(157,144,144,0.75);
+}
+
+button#scrollIntoView:hover {
+    background-color: #ff0000;
+}
+
+div#projets button:hover {
+    background-color: #000000;
+}
+
+div.handijojoText-div {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+
+}
+
+div.handijojoText-div p {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+
+
+.company-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.donate-span {
+    font-size: 16px;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.homepage-logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.main-title {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+.secondary-title {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+#sc-title {
+    color: #fff;
+}
+
 div.social-media {
     display: flex;
     justify-content: center;
@@ -272,6 +360,7 @@ div.social-media {
     padding: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
+
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -293,41 +382,55 @@ div.social-media .fab {
     align-items: center;
 }
 
+div.social-media .fa-github {
+    background: #333;
+    color: white;
+}
+
+div.social-media .fa-discord {
+    background: #7289da;
+    color: white;
+}
+
+div.social-media .fa-rocketchat {
+    background: #881214;
+    color: white;
+
+}
+
+div.social-media .fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+
+div.social-media .fa-twitter {
+    background: #55acee;
+    color: white;
+}
+
+div.social-media .fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+div.social-media .fa-instagram {
+    background: #881253;
+    color: white;
+}
+
+div.social-media .fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+
 div.social-media .fab:hover {
     background-color: #ddd;
     color: black;
 }
 
-div.social-media .fa-github {
-    background: #333;
-    color: white;
-}
-div.social-media .fa-discord {
-    background: #7289da;
-    color: white;
-}
-div.social-media .fa-rocketchat {
-    background: #881214;
-    color: white;
-}
-div.social-media .fa-facebook {
-    background: #3b5998;
-    color: white;
-}
-div.social-media .fa-twitter {
-    background: #55acee;
-    color: white;
-}
-div.social-media .fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
-div.social-media .fa-instagram {
-    background: #881253;
-    color: white;
-}
-div.social-media .fa-youtube {
-    background: #bb0000;
+#no6 {
+    background-color: #a028a0;
     color: white;
 }
 
@@ -369,6 +472,12 @@ footer a:hover {
         display: block;
     }
 
+    div#projets,
+    div#donate,
+    div#parterners {
+        
+    }
+
     .btn-grid {
         flex-direction: column;
         display: grid;
@@ -384,10 +493,16 @@ footer a:hover {
     body {
         overflow-x: hidden;
     }
+
+
+
 }
+
+
 
 div.scrolling-text {
     position: absolute;
+    /* top: 5px; */
     background-color: #000;
     width: 100%;
     white-space: nowrap;
