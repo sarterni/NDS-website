@@ -499,14 +499,14 @@ footer a:hover {
 }
 
 
-
 div.scrolling-text {
-    position: absolute;
-    /* top: 5px; */
+    position: fixed;
+    top: 0;
     background-color: #000;
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
+    z-index: 1000;
 }
 
 div.scrolling-text span {
@@ -524,4 +524,8 @@ div.scrolling-text span {
     100% {
         transform: translateX(100%);
     }
+}
+
+ul.nav-menu {
+    margin-top: 20px;
 }
