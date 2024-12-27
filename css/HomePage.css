@@ -167,12 +167,12 @@ button#scrollIntoView {
     margin-top: 10px;
 }
 
-.btn-grid {
+/* .btn-grid {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: wrap;
-}
+} */
 
 div#projets button {
     background-color: #04aa6d;
@@ -478,12 +478,12 @@ footer a:hover {
         
     }
 
-    .btn-grid {
+    /* .btn-grid {
         flex-direction: column;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
-    }
+    } */
 
     div.social-media {
         flex-direction: column;
@@ -528,4 +528,32 @@ div.scrolling-text span {
 
 ul.nav-menu {
     margin-top: 20px;
+}
+
+div.btn-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+div.btn-grid .btn {
+    flex: 1 1 45%; /* Adjust the percentage to control the width of the buttons */
+    max-width: 200px; /* Optional: Set a max-width for the buttons */
+    margin: 5px;
+    text-align: center;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    div.btn-grid .btn {
+        flex: 1 1 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    div.btn-grid .btn {
+        flex: 1 1 90%;
+    }
 }
