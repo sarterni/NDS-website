@@ -18,7 +18,7 @@
 
 <body>
     <div class="scrolling-text">
-        <span>Ceci est un texte défilant de gauche à droite</span>
+        <span>NEW ! Le site estdésormais optimisé pour une meilleure expérience utilisateur sur mobile.</span>
     </div>
 
     <ul class="nav-menu">
