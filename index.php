@@ -264,6 +264,9 @@
     <section class="sec-faq" id="no6">
         <h1 class="main-title" id="sc-title">Suivez moi sur :</h1>
         <div class="social-media">
+            <a href="https://bento.me/nicolassarter" class="fab fa-bento">
+                <img src="./img/bento me icon.png" alt="" width="20px" height="20px" />
+            </a>
             <a href="mailto:contact@nicodigitalsstudio.com" class="fab fa-rocketchat"></a>
             <a href="https://www.instagram.com/brindille070/" class="fab fa-instagram"></a>
             <a href="https://linkedin.com/nsarter/" class="fab fa-linkedin"></a>

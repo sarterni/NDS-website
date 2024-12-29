@@ -382,6 +382,7 @@ div.social-media .fab {
     align-items: center;
 }
 
+
 div.social-media .fa-github {
     background: #333;
     color: white;
@@ -421,6 +422,10 @@ div.social-media .fa-instagram {
 div.social-media .fa-youtube {
     background: #bb0000;
     color: white;
+}
+
+div.social-media .fa-bento {
+    background: #6d84f8;
 }
 
 
