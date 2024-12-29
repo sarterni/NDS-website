@@ -12,7 +12,10 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/HomePage.css?v=<?php echo filemtime('css/HomePage.css'); ?>" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <title>Nicodigitalsstudio</title>
+    <title> Nico Digital Studio - Votre Référence en Solutions Digitales </title>
+    <meta name="description"
+        content="Nicolas Sarter - Etudiant en Communication/Création digitale, passionné par le dev web" />
+    <meta name="keywords" content="Nicolas Sarter, Communication, Création digitale, dev web, projets" />
 </head>
 
 
