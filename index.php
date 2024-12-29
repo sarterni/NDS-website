@@ -5,9 +5,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description"
-        content="Nico Digital Studio - Your reference platform for digital solutions created by Nicolas SARTER" />
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/HomePage.css?v=<?php echo filemtime('css/HomePage.css'); ?>" />
@@ -16,6 +13,7 @@
     <meta name="description"
         content="Nicolas Sarter - Etudiant en Communication/Création digitale, passionné par le dev web" />
     <meta name="keywords" content="Nicolas Sarter, Communication, Création digitale, dev web, projets" />
+    <meta name="author" content="Nicolas Sarter" />
 </head>
 
 
