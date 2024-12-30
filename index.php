@@ -19,7 +19,7 @@
 
 <body>
     <div class="scrolling-text">
-        <span>NEW ! Le site estdésormais optimisé pour une meilleure expérience utilisateur sur mobile.</span>
+        <span>NEW ! Le site est désormais optimisé pour une meilleure expérience utilisateur sur mobile.</span>
     </div>
 
     <ul class="nav-menu">
