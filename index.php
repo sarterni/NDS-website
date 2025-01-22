@@ -70,7 +70,10 @@
             <h1>Qui suis-je ?</h1>
             <p>
                 ♿ Je suis Nicolas Sarter, futur communicant, étudiant en première année de Licence
-                Information-Communication à l'Université de Lorraine, je suis passionné par les nouvelles technologies, notamment le web, le design et la réalisation vidéo. Actuellement, je m'investis dans la création de contenus visant à sensibiliser le grand public aux enjeux du #handicap, convaincu que le numérique peut être un vecteur d'inclusion.
+                Information-Communication à l'Université de Lorraine, je suis passionné par les nouvelles technologies,
+                notamment le web, le design et la réalisation vidéo. Actuellement, je m'investis dans la création de
+                contenus visant à sensibiliser le grand public aux enjeux du #handicap, convaincu que le numérique peut
+                être un vecteur d'inclusion.
             </p>
         </div>
         <button id="scrollIntoView"
@@ -128,7 +131,7 @@
     </section>
 
     <section id="projets-section">
-        <h1 class="main-title">Mes projets</h1>
+        <h1 class="main-title">Mes projets Web</h1>
 
         <div class="btn-grid" id="projets">
             <!-- Step 1 & 2: Wrap the button and add a badge -->
@@ -144,9 +147,7 @@
                 <button class="">Mon site météo</button>
             </a>
 
-            <a href="https://games.nicodigitalsstudio.com/podcast/podcast.html" style="text-decoration: none">
-                <button class="">Mon projet radio</button>
-            </a>
+
 
             <a href="https://games.nicodigitalsstudio.com/" style="text-decoration: none">
                 <button class="">Mes jeux</button>
@@ -157,6 +158,15 @@
             </a>
         </div>
     </section>
+
+    <h1 class="main-title">Mes travaux dans le domaine de l'IC</h1>
+
+    <div class="btn-grid" id="projets">
+        <a href="https://games.nicodigitalsstudio.com/podcast/podcast.html" style="text-decoration: none">
+            <button class="">Mon projet radio</button>
+        </a>
+    </div>
+
     <h1 class="main-title">Mes Partenaires</h1>
     <div class="handijojoText-div">
         <p id="handijojo-text">HandiJojo</p>
