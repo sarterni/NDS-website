@@ -63,7 +63,7 @@
 
     <h1 class="main-title">Nico Digitals Studio</h1>
 
-    <p class="secondary-title">Futur studio de développement web indépendant</p>
+    <p class="secondary-title">Futur studio de création/cumunication diagitale </p>
 
     <section class="sec-faq" id="no0">
         <div class="content-container">
@@ -86,10 +86,10 @@
         <div class="content-container">
             <h1>Quel est mon but ?</h1>
             <p>
-                Mon but est de créer un studio de développement web indépendant, qui
+                <!-- Mon but est de créer un studio de développement web indépendant, qui
                 pourra créer des sites web pour des entreprises ou des particuliers.
                 Je souhaite aussi créer des jeux vidéos, des applications mobiles et
-                des logiciels.
+                des logiciels. -->
             </p>
         </div>
     </section>
@@ -167,7 +167,7 @@
         </a>
     </div>
 
-    <h1 class="main-title">Mes Partenaires</h1>
+    <h1 class="main-title">J'apporte mon soutien en ce moment à...</h1>
     <div class="handijojoText-div">
         <p id="handijojo-text">HandiJojo</p>
         <p>
@@ -276,10 +276,11 @@
             <a href="https://bento.me/nicolassarter" class="fab fa-bento">
                 <img src="./img/bento me icon.png" alt="" width="20px" height="20px" />
             </a>
-            <a href="mailto:contact@nicodigitalsstudio.com" class="fab fa-rocketchat"></a>
-            <a href="https://www.instagram.com/brindille070/" class="fab fa-instagram"></a>
             <a href="https://linkedin.com/nsarter/" class="fab fa-linkedin"></a>
+            <a href="https://piaille.fr/@sarter_nicolas" class="fab fa-mastodon"></a>
+            <a href="https://www.instagram.com/brindille070/" class="fab fa-instagram"></a>
             <a href="https://github.com/sarterni" class="fab fa-github"></a>
+            <a href="mailto:contact@nicodigitalsstudio.com" class="fab fa-rocketchat"></a>
             <!-- <a href="discordapp.com/users/689827486204297227" class="fab fa-discord"></a>
             <a href="https://facebook.com" class="fab fa-facebook"></a>
             <a href="https://twitter.com" class="fab fa-twitter"></a>

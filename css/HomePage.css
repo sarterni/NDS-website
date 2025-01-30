@@ -264,6 +264,7 @@ button#honey {
     background-color: #0099FF;
 
 }
+
 button#moovance {
     background-color: #145d92;
 
@@ -284,7 +285,7 @@ div#donate button:hover,
 div#parterners button:hover {
     background-color: #f0f0f0;
     color: #000;
-    box-shadow: 10px 10px 5px 0px rgba(157,144,144,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(157, 144, 144, 0.75);
 }
 
 button#scrollIntoView:hover {
@@ -383,6 +384,15 @@ div.social-media .fab {
 }
 
 
+div.social-media .fa-bento {
+    background: #6d84f8;
+}
+
+div.social-media .fa-mastodon {
+    background: #5e53eb;
+    color: white;
+}
+
 div.social-media .fa-github {
     background: #333;
     color: white;
@@ -424,9 +434,6 @@ div.social-media .fa-youtube {
     color: white;
 }
 
-div.social-media .fa-bento {
-    background: #6d84f8;
-}
 
 
 div.social-media .fab:hover {
@@ -540,8 +547,10 @@ div.btn-grid {
 }
 
 div.btn-grid .btn {
-    flex: 1 1 45%; /* Adjust the percentage to control the width of the buttons */
-    max-width: 200px; /* Optional: Set a max-width for the buttons */
+    flex: 1 1 45%;
+    /* Adjust the percentage to control the width of the buttons */
+    max-width: 200px;
+    /* Optional: Set a max-width for the buttons */
     margin: 5px;
     text-align: center;
 }
