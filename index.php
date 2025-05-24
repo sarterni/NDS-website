@@ -9,7 +9,7 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/HomePage.css?v=<?php echo filemtime('css/HomePage.css'); ?>" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <title> Nico Digital Studio - Votre Référence en Solutions Digitales </title>
+    <title>Les Actus De Nico</title>
     <meta name="description"
         content="Nicolas Sarter - Etudiant en Communication/Création digitale, passionné par le dev web" />
     <meta name="keywords" content="Nicolas Sarter, Communication, Création digitale, dev web, projets" />
@@ -61,9 +61,9 @@
 
 
 
-    <h1 class="main-title">Nico Digitals Studio</h1>
+    <h1 class="main-title">Les Actus De Nico</h1>
 
-    <p class="secondary-title">Futur studio de création/cumunication diagitale </p>
+    <p class="secondary-title">Votre nouvelle source d'informations avec un regard particulier sur le monde du handicap</p>
 
     <section class="sec-faq" id="no0">
         <div class="content-container">
