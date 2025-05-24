@@ -37,8 +37,10 @@ body {
 }
 
 .navbar-image img {
-    width: 100px;
+    width: 50px;
+    /* Taille réduite */
     height: auto;
+    /* Garde le ratio */
     margin-right: 10px;
 }
 
@@ -333,7 +335,11 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 5%;
+    width: 200px;
+    /* Taille réduite */
+    height: auto;
+    /* Garde le ratio */
 }
 
 .main-title {

@@ -31,17 +31,8 @@
             <li>
                 <a class="active" href="https://nicodigitalsstudio.com/">home</a>
             </li>
-            <li>
-                <a href="https://webportrait.nicodigitalsstudio.com/">webportrait</a>
+                <a href="https://games.nicodigitalsstudio.com/podcast/podcast.html">podcasts</a>
             </li>
-            <li>
-                <a href="https://weather-app.nicodigitalsstudio.com/">weather</a>
-            </li>
-            <li><a href="https://games.nicodigitalsstudio.com/">my games</a></li>
-            <li>
-                <a href="https://games.nicodigitalsstudio.com/podcast/podcast.html">podcast</a>
-            </li>
-            <li><a href="https://compact.univ-lorraine.fr/view/view.php?id=130318">portfolio</a></li>
             <li><a href="">support me</a></li>
             <li><a href="">contact</a></li>
             <li><a href="">about</a></li>
@@ -63,7 +54,8 @@
 
     <h1 class="main-title">Les Actus De Nico</h1>
 
-    <p class="secondary-title">Votre nouvelle source d'informations avec un regard particulier sur le monde du handicap</p>
+    <p class="secondary-title">Votre nouvelle source d'informations avec un regard particulier sur le monde du handicap
+    </p>
 
     <section class="sec-faq" id="no0">
         <div class="content-container">
@@ -84,12 +76,11 @@
 
     <section class="sec-faq" id="no1">
         <div class="content-container">
-            <h1>Quel est mon but ?</h1>
+            <h1>Quel est mon objectif ?</h1>
             <p>
-                <!-- Mon but est de créer un studio de développement web indépendant, qui
-                pourra créer des sites web pour des entreprises ou des particuliers.
-                Je souhaite aussi créer des jeux vidéos, des applications mobiles et
-                des logiciels. -->
+                Mon objectif est double : m'initier au journalisme tout en contribuant à une meilleure compréhension et
+                inclusion du handicap dans notre société.
+
             </p>
         </div>
     </section>
@@ -131,6 +122,15 @@
     </section>
 
     <section id="projets-section">
+
+        <h1 class="main-title">Mes travaux dans le domaine de l'IC</h1>
+
+        <div class="btn-grid" id="projets">
+            <a href="https://games.nicodigitalsstudio.com/podcast/podcast.html" style="text-decoration: none">
+                <button class="">Mon projet radio</button>
+            </a>
+        </div>
+
         <h1 class="main-title">Mes projets Web</h1>
 
         <div class="btn-grid" id="projets">
@@ -159,15 +159,9 @@
         </div>
     </section>
 
-    <h1 class="main-title">Mes travaux dans le domaine de l'IC</h1>
 
-    <div class="btn-grid" id="projets">
-        <a href="https://games.nicodigitalsstudio.com/podcast/podcast.html" style="text-decoration: none">
-            <button class="">Mon projet radio</button>
-        </a>
-    </div>
 
-    <h1 class="main-title">J'apporte mon soutien en ce moment à...</h1>
+    <h1 class="main-title">J'apporte mon soutien à : </h1>
     <div class="handijojoText-div">
         <p id="handijojo-text">HandiJojo</p>
         <p>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Document</title>
+</head>
+<p> tous les chanps sont obligatoires </p>
+<body>
+    <form class="contact-form" method="post" action="send_mail.php">
+        <div class="form-row">
+            <div class="form-group">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+            <div class="form-group">
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="profil">Votre profil</label>
+                <select id="profil" name="profil" required>
+                    <option value="" disabled selected>Choisissez votre profil</option>
+                    <option value="etudiant">Étudiant</option>
+                    <option value="entreprise">Créateur de contenu</option>
+                    <option value="professionnel"> Journaliste</option>
+                    <option value="enseignant-chercheur">Média</option>
+                    <option value="autre">Autre</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="email">Adresse courriel</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group full-width">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+        </div>
+        <div class="form-row">
+            <button type="submit">Envoyer</button>
+        </div>
+    </form>
+</body>
+
+</html>
