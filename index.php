@@ -35,7 +35,7 @@
                 <a href="https://games.nicodigitalsstudio.com/podcast/podcast.html">podcasts</a>
             </li>
             <li><a href="">support me</a></li>
-            <li><a href="">contact</a></li>
+            <li><a href="./contact.html">contact</a></li>
             <li><a href="">about</a></li>
         </div>
         <div class="Restricted">

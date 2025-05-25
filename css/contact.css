@@ -8,6 +8,13 @@
     font-family: Arial, sans-serif;
 }
 
+.contact-form p {
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+    margin-top: -8px;
+}
+
 .form-row {
     display: flex;
     gap: 24px;
