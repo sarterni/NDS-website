@@ -31,6 +31,7 @@
             <li>
                 <a class="active" href="https://nicodigitalsstudio.com/">home</a>
             </li>
+            <li>
                 <a href="https://games.nicodigitalsstudio.com/podcast/podcast.html">podcasts</a>
             </li>
             <li><a href="">support me</a></li>
