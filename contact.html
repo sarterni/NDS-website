@@ -9,6 +9,44 @@
 </head>
 
 <body>
+    <body>
+    <div class="scrolling-text">
+        <span>NEW ! Le site est désormais optimisé pour une meilleure expérience utilisateur sur mobile.</span>
+    </div>
+
+    <ul class="nav-menu">
+        <button class="nav-Togle-btn" onclick="toggleNav()">☰</button>
+        <div class="navbar-image">
+            <img src="./logoNDS.png" alt="" />
+        </div>
+        <div class="nav-content" aria-labelledby="Barre de navigation">
+            <li>
+                <a class="active" href="https://nicodigitalsstudio.com/">home</a>
+            </li>
+            <li>
+                <a href="https://games.nicodigitalsstudio.com/podcast/podcast.html">podcasts</a>
+            </li>
+            <li><a href="">support me</a></li>
+            <li><a href="./contact.html">contact</a></li>
+            <li><a href="">about</a></li>
+        </div>
+        <div class="Restricted">
+            <input id="input-restricted" type="text" placeholder="Mot de passe" /><br />
+            <a href="RestrictedAccess.html" style="text-decoration: none">
+                <button id="go-to-restrcted" disabled>Connectez vous</button>
+            </a>
+        </div>
+    </ul>
+
+
+    <div class="homepage-logo">
+        <img id="logo" src="./logoNDS.png" alt="" />
+    </div>
+
+
+
+    <h1 class="main-title"> Contact | Les Actus De Nico</h1>
+
     <form class="contact-form" method="post" action="send_mail.php">
         <p> Tous les chanps sont obligatoires </p>
         <div class="form-row">

@@ -1,3 +1,136 @@
+html {
+    display: block;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav-menu {
+    z-index: 1000;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    flex-direction: row;
+    margin: 0;
+    margin-bottom: 5%;
+    padding-left: 20px;
+
+}
+
+.navbar-image {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar-image img {
+    width: 50px;
+    /* Taille réduite */
+    height: auto;
+    /* Garde le ratio */
+    margin-right: 10px;
+}
+
+.nav-content {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04aa6d;
+}
+
+
+div.Restricted {
+    float: right;
+}
+
+.nav-Togle-btn {
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.nav-Togle-btn:hover {
+    background-color: #111;
+    color: white;
+
+}
+
+   
+
+
+}
+
+
+div.scrolling-text {
+    position: fixed;
+    top: 0;
+    background-color: #000;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+div.scrolling-text span {
+    color: #fff;
+    display: inline-block;
+    padding-right: 100%;
+    animation: scroll 20s linear infinite;
+    padding-bottom: 5px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+ul.nav-menu {
+    margin-top: 20px;
+}
+/* Contact Form Styles */
+
 .contact-form {
     max-width: 900px;
     margin: 40px auto;
