@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8" />
@@ -9,10 +9,10 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/HomePage.css?v=<?php echo filemtime('css/HomePage.css'); ?>" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <title>Les Actus De Nico</title>
+    <title> Accueil | Les Actus De Nico</title>
     <meta name="description"
-        content="Nicolas Sarter - Etudiant en Communication/Création digitale, passionné par le dev web" />
-    <meta name="keywords" content="Nicolas Sarter, Communication, Création digitale, dev web, projets" />
+        content="Les Actus De Nico - Votre nouvelle source d'informations avec un regard particulier sur le monde du handicap" />
+    <meta name="keywords" content="handicap, inclusion, sensibilisation, numérique" />
     <meta name="author" content="Nicolas Sarter" />
 </head>
 
@@ -29,14 +29,14 @@
         </div>
         <div class="nav-content" aria-labelledby="Barre de navigation">
             <li>
-                <a class="active" href="https://nicodigitalsstudio.com/">home</a>
+                <a class="active" href="lesactusdenico.info">Accueil</a>
             </li>
             <li>
-                <a href="https://games.nicodigitalsstudio.com/podcast/podcast.html">podcasts</a>
+                <a href="">Podcasts</a>
             </li>
-            <li><a href="">support me</a></li>
-            <li><a href="./contact.html">contact</a></li>
-            <li><a href="">about</a></li>
+            <li><a href="">Me soutenir</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="">À propos</a></li>
         </div>
         <div class="Restricted">
             <input id="input-restricted" type="text" placeholder="Mot de passe" /><br />
@@ -159,7 +159,7 @@
             scrolling="no" allowtransparency="true"></iframe>
     </div>
     <p style="text-align:center; margin-top: 10px;">
-        <a href="https://www.instagram.com/brindille070/" target="_blank" rel="noopener">Voir tous mes posts sur
+        <a href="https://www.instagram.com/lesactusdenico/" target="_blank" rel="noopener">Voir tous mes posts sur
             Instagram</a>
     </p>
     </section>
@@ -290,7 +290,7 @@
             </a>
             <a href="https://linkedin.com/nsarter/" class="fab fa-linkedin"></a>
             <a href="https://piaille.fr/@sarter_nicolas" class="fab fa-mastodon"></a>
-            <a href="https://www.instagram.com/brindille070/" class="fab fa-instagram"></a>
+            <a href="https://www.instagram.com/lesactusdenico/" class="fab fa-instagram"></a>
             <a href="https://github.com/sarterni" class="fab fa-github"></a>
             <a href="mailto:contact@nicodigitalsstudio.com" class="fab fa-rocketchat"></a>
             <!-- <a href="discordapp.com/users/689827486204297227" class="fab fa-discord"></a>
