@@ -62,11 +62,11 @@
         <div class="content-container">
             <h1>Qui suis-je ?</h1>
             <p>
-                ♿ Je suis Nicolas Sarter, futur communicant, étudiant en première année de Licence
+                ♿️ Je suis Nicolas Sarter, futur communicant, étudiant en première année de Licence
                 Information-Communication à l'Université de Lorraine, je suis passionné par les nouvelles technologies,
                 notamment le web, le design et la réalisation vidéo. Actuellement, je m'investis dans la création de
-                contenus visant à sensibiliser le grand public aux enjeux du #handicap, convaincu que le numérique peut
-                être un vecteur d'inclusion.
+                contenus visant à sensibiliser le grand public aux enjeux du #handicap, convaincu que le numérique est
+                un vecteur d'inclusion.
             </p>
         </div>
         <button id="scrollIntoView"
