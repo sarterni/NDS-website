@@ -122,40 +122,57 @@
         </button>
     </section>
 
+    <section id="linkedin-posts" class="sec-faq">
+    </section>
+    <h1 class="main-title">Mes derniers posts <span id="Linked">Linked</span><span id="In">In</span></h1>
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+        <!-- LinkedIn post embed 1 -->
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7331737042046894080?collapsed=1"
+            height="700" width="504" frameborder="0" allowfullscreen="" title="Post intégré"></iframe>
+        <!-- Ajoutez d'autres iframes pour plus de posts -->
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7331344865957470209?collapsed=1"
+            height="263" width="504" frameborder="0" allowfullscreen="" title="Post intégré"></iframe>
+        <!-- LinkedIn post embed 2 -->
+
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7332651855929389056?collapsed=1"
+            height="263" width="504" frameborder="0" allowfullscreen="" title="Post intégré"></iframe>
+
+
+    </div>
+    <p style="text-align:center; margin-top: 10px;">
+        <a href="https://www.linkedin.com/in/nsarter/" target="_blank" rel="noopener">Voir tous mes posts sur
+            LinkedIn</a>
+    </p>
+    </section>
+
+    <section id="instagram-posts" class="sec-faq"></section>
+    <h1 class="main-title">Mes derniers posts <span style="color:#E1306C;">Instagram</span></h1>
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+        <!-- Instagram post embed 1 -->
+        <iframe src="https://www.instagram.com/p/C6w7Qw6I6yF/embed" width="340" height="440" frameborder="0"
+            scrolling="no" allowtransparency="true"></iframe>
+        <!-- Instagram post embed 2 -->
+        <iframe src="https://www.instagram.com/p/C6j8kQ-I5wF/embed" width="340" height="440" frameborder="0"
+            scrolling="no" allowtransparency="true"></iframe>
+        <!-- Instagram post embed 3 -->
+        <iframe src="https://www.instagram.com/p/C6Qw8k5o4xA/embed" width="340" height="440" frameborder="0"
+            scrolling="no" allowtransparency="true"></iframe>
+    </div>
+    <p style="text-align:center; margin-top: 10px;">
+        <a href="https://www.instagram.com/brindille070/" target="_blank" rel="noopener">Voir tous mes posts sur
+            Instagram</a>
+    </p>
+    </section>
+
+
+
     <section id="projets-section">
 
         <h1 class="main-title">Mes travaux dans le domaine de l'IC</h1>
 
         <div class="btn-grid" id="projets">
-            <a href="https://games.nicodigitalsstudio.com/podcast/podcast.html" style="text-decoration: none">
-                <button class="">Mon projet radio</button>
-            </a>
-        </div>
-
-        <h1 class="main-title">Mes projets Web</h1>
-
-        <div class="btn-grid" id="projets">
-            <!-- Step 1 & 2: Wrap the button and add a badge -->
-            <div class="button-container">
-                <a href="https://weather-app.nicodigitalsstudio.com/" style="text-decoration: none">
-                    <button id="new-btn">Joue au PetitBac</button>
-                    <span class="badge">New</span>
-                    <!-- Badge text -->
-                </a>
-            </div>
-
-            <a href="https://weather-app.nicodigitalsstudio.com/" style="text-decoration: none">
-                <button class="">Mon site météo</button>
-            </a>
-
-
-
-            <a href="https://games.nicodigitalsstudio.com/" style="text-decoration: none">
-                <button class="">Mes jeux</button>
-            </a>
-
-            <a href="https://webportrait.nicodigitalsstudio.com/" style="text-decoration: none">
-                <button class="">Découvre mon web portrait</button>
+            <a href="" style="text-decoration: none">
+                <button class="">On Vous En Parle</button>
             </a>
         </div>
     </section>
