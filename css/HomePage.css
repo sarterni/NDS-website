@@ -490,7 +490,9 @@ footer a {
 }
 
 footer a:hover {
-    text-decoration: underline #04aa6d;
+    text-decoration: underline;
+    text-decoration-color: green;
+    color: #04aa6d;
 }
 
 @media screen and (max-width: 1075px) {

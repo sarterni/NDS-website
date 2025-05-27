@@ -304,12 +304,13 @@
     </section>
 
     <footer>
-        <p>© 2025 Les Actus de Nico</p>
+        <p>© 2025 Les Actus de Nico </p>
         <div class="links">
-            <a href="lesactusdenico.info">Accueil</a>
-            <a href="https://podcasts.lesactusdenico.info">Podcasts</a>
-            <a href="https://nicodigitalsstudio.com/">Nico Digitals Studio</a>
-            <a href="./contact.html">Contact</a>
+            <a href="lesactusdenico.info">Accueil | </a>
+            <a href="https://podcasts.lesactusdenico.info">Podcasts | </a>
+            <a href="https://nicodigitalsstudio.com/">Nico Digitals Studio | </a>
+            <a href="./contact.html">Contact | </a>
+            <a href="./plan_du_site.html">Plan du site</a>
 
         </div>
     </footer>
