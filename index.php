@@ -275,12 +275,12 @@
             </a>
         </div>
     </section>
-    <h1 class="main-title">Je travaille pour</h1>
+    <h1 class="main-title">Un site créé par </h1>
 
     <div class="btn-grid" id="donate">
-        <a href="https://babylon-destruct.website/" style="text-decoration: none">
+        <a href="https://nicodigitalsstudio.com/" style="text-decoration: none">
             <button id="babylon" class="babylon-button">
-                <img id="babylon-logo" class="company-logo" src="./img/babylon.png" alt="Babylon Logo" />
+                <img id="babylon-logo" class="company-logo" src="" alt="Babylon Logo" />
                 <span id="span-babylon" class="donate-span">Clique Ici pour découvrir le site</span>
             </button>
         </a>
@@ -292,11 +292,10 @@
             <a href="https://bento.me/nicolassarter" class="fab fa-bento">
                 <img src="./img/bento me icon.png" alt="" width="20px" height="20px" />
             </a>
-            <a href="https://linkedin.com/nsarter/" class="fab fa-linkedin"></a>
-            <a href="https://piaille.fr/@sarter_nicolas" class="fab fa-mastodon"></a>
-            <a href="https://www.instagram.com/lesactusdenico/" class="fab fa-instagram"></a>
-            <a href="https://github.com/sarterni" class="fab fa-github"></a>
             <a href="mailto:contact@nicodigitalsstudio.com" class="fab fa-rocketchat"></a>
+            <a href="https://linkedin.com/nsarter/" class="fab fa-linkedin"></a>
+            <a href="https://www.instagram.com/lesactusdenico/" class="fab fa-instagram"></a>
+            <a href="https://piaille.fr/@sarter_nicolas" class="fab fa-mastodon"></a>
             <!-- <a href="discordapp.com/users/689827486204297227" class="fab fa-discord"></a>
             <a href="https://facebook.com" class="fab fa-facebook"></a>
             <a href="https://twitter.com" class="fab fa-twitter"></a>
@@ -305,18 +304,13 @@
     </section>
 
     <footer>
-        <p>© 2024 Nico Digitals Studio</p>
+        <p>© 2025 Les Actus de Nico</p>
         <div class="links">
-            <a href="https://nicodigitalsstudio.com/">home |</a>
-            <a href="https://webportrait.nicodigitalsstudio.com/">webportrait |</a>
-            <a href="https://weather-app.nicodigitalsstudio.com/">weather |</a>
-            <a href="https://games.nicodigitalsstudio.com/">my games |</a>
-            <a href="https://games.nicodigitalsstudio.com/podcast/podcast.html">podcast
-            </a>
-            <!-- <a href="">portfolio</a>
-            <a href="">support me</a>
-            <a href="">contact</a>
-            <a href="">about</a> -->
+            <a href="lesactusdenico.info">Accueil</a>
+            <a href="https://podcasts.lesactusdenico.info">Podcasts</a>
+            <a href="https://nicodigitalsstudio.com/">Nico Digitals Studio</a>
+            <a href="./contact.html">Contact</a>
+
         </div>
     </footer>
 
