@@ -32,11 +32,15 @@
                 <a class="active" href="lesactusdenico.info">Accueil</a>
             </li>
             <li>
-                <a href="">Podcasts</a>
+                <a href="https://podcasts.lesactusdenico.info">podcasts</a>
             </li>
-            <li><a href="">Me soutenir</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-            <li><a href="">À propos</a></li>
+            <li>
+                <a href="https://nicodigitalsstudio.com/">Nico Digitals Studio</a>
+            </li>
+            <li>
+                <a href="./contact.html">Contact</a>
+            </li>
+
         </div>
         <div class="Restricted">
             <input id="input-restricted" type="text" placeholder="Mot de passe" /><br />
